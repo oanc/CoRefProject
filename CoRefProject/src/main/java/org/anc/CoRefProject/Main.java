@@ -5,7 +5,9 @@ import java.io.IOException;
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
 import org.xces.graf.api.INode;
+import org.xces.graf.io.GrafLoader;
 import org.xces.graf.io.GrafParser;
+import org.xces.graf.io.GrafRenderer;
 import org.xml.sax.SAXException;
 
 public class Main {
@@ -20,7 +22,8 @@ public class Main {
 		// Initialize an instance of GraphModifier for graph
 		GraphModifier gm = new GraphModifier(graph);
 		IGraph augmentedGraph = gm.augmentAnnotations();
-		
-		
+		gm.printSynopsis();
+
+		// HOW DO I CONVERT AUGMENTED GRAPH BACK INTO XML FORMAT?
 	}
 }

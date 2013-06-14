@@ -11,16 +11,29 @@ public class GraphModifier {
 
 	private IGraph graph;
 	private ArrayList<String> missingIDs;
+	private ArrayList<INode> matchingNodes;
 	
 	public GraphModifier(IGraph graph){
 		this.graph = graph;
 	}
 	
-	public IGraph augmentAnnotations(){
-		//Initialize an iterator over the nodes of the IGraph
-		ArrayList<INode> matchingNodes = new ArrayList<INode>();
+	/**
+	 * This function returns an Iterator over the nodes of this.graph
+	 * @return
+	 */
+	public Iterator<INode> nodeIterator(){
 		Iterable<INode> nodeSet = this.graph.nodes();
-		Iterator<INode> it = nodeSet.iterator();
+		return nodeSet.iterator();
+	}
+	
+	/**
+	 * This function adds the missing "matches" features to the IGraph nodes.
+	 * @return IGraph
+	 */
+	public IGraph augmentAnnotations(){
+		
+		//Initialize an iterator over the nodes of the IGraph
+		Iterator<INode> it = this.nodeIterator();
 		
 		//Iterate through the nodes of the graph to find nodes with
 		// "matches" feature
@@ -33,15 +46,12 @@ public class GraphModifier {
 			//if not a feature, do nothing
 			while(itFeatures.hasNext()){
 				if(itFeatures.next().getName().equalsIgnoreCase("matches")){
-					matchingNodes.add(currNode);
+					this.matchingNodes.add(currNode);
 				}
 			}
 		}
-		//For each node that contains a "matches" feature, locate its matches, indicate if a 
-		//match ID is not valid (i.e. add it to missingIDs and doNothing), else if the ID is
-		//valid, check for a matches feature, if none, add it, if it already exists, check
-		//that it contains the original ID number
-		for(INode node: matchingNodes){
+		// Retrieve list of matching ID numbers from each node with a "matches" feature
+		for(INode node: this.matchingNodes){
 			ArrayList<String> matchIDs = (ArrayList<String>) node.getAnnotation().getFeature("matches").getValue();
 			for (String id : matchIDs){
 				//Check if node with given ID exists
@@ -71,8 +81,27 @@ public class GraphModifier {
 		}
 		return this.graph;
 }
-
-
 	
+	public void printSynopsis(){
+		for (INode node: this.matchingNodes){
+			System.out.println("Coreference chain starting at ID" + node.getId());
+				ArrayList<String> matchList = (ArrayList<String>) node.getAnnotation().getFeature("matches").getValue();
+				for (int i = 0; i < matchList.size(); i++) {
+					int index = i + 1;
+					// Check if the ID is valid
+					if (! (this.missingIDs.contains(matchList.get(i)))){
+						/// CHECK HOW TO INCLUDE TO AND FROM VALUES
+					INode currNode = this.graph.findNode(matchList.get(i));
+					String type = currNode.getAnnotation().getLabel();
+					System.out.println("(" + index + ") " + type + " " + currNode.getAnnotation().getFeatureValue("id") + "PUT START AND END HERE");
+				}
+					// Indicate if ID was not valid
+					else{
+						System.out.println(">>> ID" + matchList.get(i) + "DOES NOT EXIST");
+					}
+			
+		}
+	}
+}
 	
 }
