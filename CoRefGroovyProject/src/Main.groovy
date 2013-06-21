@@ -13,7 +13,7 @@ class Main {
 		Node tree = parser.parse(file)
 
 		XmlModifier modifier = new XmlModifier(tree)
-		modifier.xmlAugment()
+		modifier.initializeHashMap()
 		
 		}
 	}
