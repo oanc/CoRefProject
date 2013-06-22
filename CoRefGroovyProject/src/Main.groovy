@@ -18,10 +18,6 @@ class Main {
 		modifier.initializeHashMap()
 		modifier.addMissingMatchesFeatures()
 		Node newTree = modifier.hashMaptoNode()
-		
-		//XmlNodePrinter printer = new XmlNodePrinter(preserveWhitespace:true)
-		//printer.print(newTree)
-		//File newFile = new File ("CoRefFiles/Modified_110CYL067-coRef.xml")
 
 		XmlNodePrinter printer = new XmlNodePrinter(new PrintWriter(new FileWriter('Modified_' + originalFiles + 'Modified_' + fileName)))
 		printer.print(newTree)
