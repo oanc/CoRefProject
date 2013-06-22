@@ -7,13 +7,18 @@ class XmlModifier {
 	private HashMap<String, HashMap<String, String>> nodeData;
 	
 	
-	
-	
+	/**
+	 * Constructor for class XmlModifier
+	 * @param node
+	 */
 	public XmlModifier(Node node){
 		this.node = node;
 		this.nodeData = new HashMap<String, HashMap<String, String>>()
 	}
 	
+	/**
+	 * This function initializes a hashmap to store the data of each node, referenced by its id number.
+	 */
 	private void initializeHashMap(){
 		List<Node> nodeList = this.node.breadthFirst()
 		Node firstNode = nodeList.get(0)
@@ -48,56 +53,127 @@ class XmlModifier {
 			
 			this.nodeData.put(wordID, featureMap)
 		}
-		System.out.println(this.nodeData.toMapString())
+		//System.out.println(this.nodeData.toMapString())
 	}
 	
 	
 	
 	
-	
+	/**
+	 * This function iterates through the hashmap of the node data and adds the missing 'matches' features when necessary.
+	 */
 	private void addMissingMatchesFeatures(){
-		/// Use hashmap, iterate through the key values (first copy them into an arraylist), 
-		/// check for those that have existing matches features, then iterate through those 
-		/// matches, see if they have existing matches features, if not, add one, with the
-		/// same matches list (remove the match itself and add the original node), if it does,
-		/// then use a HashSet to combine the two match lists, modifying both the original node's
-		/// matches and the match's matches
+		//Copy word IDs into an array list
+		ArrayList<String> IDs = this.nodeData.keySet()
+		
+		//Iterate through IDs, locate ones that have a 'matches' feature
+		for (String id : IDs){
+			
+			if(this.nodeData.get(id).containsKey('matches') && (this.nodeData.get(id).get('matches').size() != 2)){
+				
+				String matchesNoClosures = this.nodeData.get(id).get('matches').substring(1, this.nodeData.get(id).get('matches').size() - 1)
+				Set<String> matchSet = new HashSet<String>()
+				matchSet.addAll(new ArrayList<String>(Arrays.asList(matchesNoClosures.split(","))))
+				
+				for (String match : matchSet){
+					
+					if(this.nodeData.containsKey(match)){
+						
+						//if the match already has a matches feature -- merge the two lists, eliminate repeats and replace both lists
+						if(this.nodeData.get(match).containsKey('matches') && (this.nodeData.get(match).get('matches').size() != 2)){
+							
+							//Initialize a hashset -- ensures no repeat entries
+							Set<String> newMatchList = new HashSet<String>()
+							newMatchList.addAll(new ArrayList<String>(Arrays.asList(this.nodeData.get(match).get('matches').substring(1, this.nodeData.get(match).get('matches').size() - 1).split(","))))
+							
+							
+							//Combine the entries of matchArray and newMatchList, then replace the 'matches' entry for match
+							newMatchList.addAll(matchSet)
+							newMatchList.remove(match)
+							newMatchList.add(id)
+							
+							
+							this.nodeData.get(match).remove('matches')
+							this.nodeData.get(match).put('newMatches', newMatchList.toString())
+							
+							//Replace the original node's matches
+							newMatchList.add(match)
+							newMatchList.remove(id)
+
+							
+							this.nodeData.get(id).remove('matches')
+							this.nodeData.get(id).put('newMatches', newMatchList.toString())
+						}
+						
+						//the match does not already have a matches feature
+						else{
+							Set<String> newMatchList2 = new HashSet<String>()
+							newMatchList2.addAll(matchSet)
+							newMatchList2.remove(match)
+							newMatchList2.add(id)
+							this.nodeData.get(match).remove('matches')
+							this.nodeData.get(match).put('newMatches', newMatchList2.toString())
+						
+						}
+					}
+				}
+			}
+		}
+		//System.out.println(this.nodeData.toMapString())
 	}
+		
 	
 	private void printChains(){
 		// print information on each coreference chain
 	}
 	
+	
+	/**
+	 * Convert the nodeData hashMap back into nodes -- these will be written back to xml file 
+	 */
 	private Node hashMaptoNode(){
-		return this.node;
-	}
-	
-	
-	
-	
-	
-//	public void xmlAugment(){
-//		//Create a list of the nodes
-//		List<Node> nodeList = this.node.breadthFirst()
-//		
-//		//Isolate first node -- it's children will be all of the annotations
-//		Node firstNode = nodeList.get(0)
-//			List<Node> wordNodeList = firstNode.children()
-//			
-//			//For each node, make a list of its feature nodes
-//			for (Node node: wordNodeList){
-//				System.out.println(node.name())
-//				List<Node> features = node.children()
-//				
-//					// For each feature node, check if its name is matches, indicate that the node has matches feature
-//					for (Node feature: features){
-//					 	if (feature.attributes().get('name') == 'matches'){
-//							System.out.println('Node has a matches feature.')
-//							System.out.println('Matches are ' + feature.attributes().get('value'))
-//					}
-//					
-//				}
-//		}
-//	}
+		List<Node> nodeList = this.node.breadthFirst()
+		Node firstNode = nodeList.get(0)
+		List<Node> wordNodeList = firstNode.children()
+		ArrayList<Node> wordNodeListCopy = new ArrayList<Node>()
+		wordNodeListCopy.addAll(wordNodeList)
+		for (Node wordNode: wordNodeListCopy){
+			firstNode.remove(wordNode)
+		}
+		for (String id : this.nodeData.keySet()){
+			Map<String, String> attributeMap = new HashMap<String, String>()
+			attributeMap.put('to', this.nodeData.get(id).get('to'))
+			attributeMap.put('from', this.nodeData.get(id).get('from'))
+			attributeMap.put('type', this.nodeData.get(id).get('classification'))
+		
+			
+			Node newNode = new Node(firstNode, 'struct', attributeMap)
+			Map<String, String> idMap = new HashMap<String, String>()
+			idMap.put('name', 'id')
+			idMap.put('value', id)
+			Node idNode = new Node(newNode, 'feat', idMap)
+			
+			for (String feature: this.nodeData.get(id).keySet()){
+				Map<String, String> featureAttributeMap = new HashMap<String, String>()
+				
+				if((feature != 'to') && (feature != 'from') && (feature != 'classification')){
+				
+					if (feature != 'newMatches'){
+						featureAttributeMap.put('name', feature)
+						featureAttributeMap.put('value', this.nodeData.get(id).get(feature))
+						Node newFeatureNode = new Node(newNode, 'feat', featureAttributeMap)
+					}
+				
+					else{
+						featureAttributeMap.put('name', 'matches')
+						featureAttributeMap.put('value', this.nodeData.get(id).get(feature))
+						Node newMatchesNode = new Node(newNode, 'feat', featureAttributeMap)
+					}
+				}
+				}		
+		}
+		return this.node
+	}	
 }
+
 
