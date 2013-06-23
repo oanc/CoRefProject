@@ -3,7 +3,6 @@ class XmlModifier {
 	
 	private Node node;
 	private ArrayList<String> missingIDs;
-	private ArrayList<String> matchingIDs;
 	private HashMap<String, HashMap<String, String>> nodeData;
 	
 	
@@ -14,6 +13,7 @@ class XmlModifier {
 	public XmlModifier(Node node){
 		this.node = node;
 		this.nodeData = new HashMap<String, HashMap<String, String>>()
+		this.missingIDs = new ArrayList<String>()
 	}
 	
 	/**
@@ -116,15 +116,61 @@ class XmlModifier {
 						
 						}
 					}
+					
+					else{
+						this.missingIDs.add(match)
+					}
 				}
 			}
 		}
 		//System.out.println(this.nodeData.toMapString())
 	}
 		
-	
+	/**
+	 * Print information to console about each coreference chain
+	 */
 	private void printChains(){
-		// print information on each coreference chain
+		System.out.println("-----COREFERENCE CHAIN SUMMARY-----")
+		System.out.println("-----------------------------------")
+		System.out.println('')
+		ArrayList<String> IDs = this.nodeData.keySet()
+		ArrayList<String> printedIDs = new ArrayList<String>()
+
+		for (String id: IDs){
+		
+			// TO FIX : ADD CODE TO INCLUDE NODES THAT STILL HAVE A 'MATCHES' FEATURE, not just newMatches
+			
+			
+			if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
+				
+				printedIDs.add(id)
+				System.out.println('Coreference chain starting at ID ' + id + ':')
+				
+				String matchesNoClosures = this.nodeData.get(id).get('newMatches').substring(1, this.nodeData.get(id).get('newMatches').size() - 1)
+				ArrayList<String> matchSet = new ArrayList<String>(Arrays.asList(matchesNoClosures.split(", ")))
+				
+				int index = 0
+				
+				for(int i = 0; i < matchSet.size(); i ++){
+					String matchString
+					if(matchSet.get(i).charAt(0) == ' '){
+						matchString = matchSet.get(i).substring(1, matchSet.get(i).size())
+					}
+					else{
+						matchString = matchSet.get(i)
+					}
+					printedIDs.add(matchSet.get(i))
+					if (this.missingIDs.contains(matchString)){
+						System.out.println('  >>> ID ' + matchString + " DOES NOT EXIST")
+					}
+					else{
+						index++
+						System.out.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to'))	
+					}
+					}
+					
+			}		
+		}
 	}
 	
 	
@@ -132,14 +178,18 @@ class XmlModifier {
 	 * Convert the nodeData hashMap back into nodes -- these will be written back to xml file 
 	 */
 	private Node hashMaptoNode(){
+		//Initialize an arraylist to store all of the children nodes - then use this to clear the children from the first node
 		List<Node> nodeList = this.node.breadthFirst()
 		Node firstNode = nodeList.get(0)
 		List<Node> wordNodeList = firstNode.children()
 		ArrayList<Node> wordNodeListCopy = new ArrayList<Node>()
 		wordNodeListCopy.addAll(wordNodeList)
+		
 		for (Node wordNode: wordNodeListCopy){
 			firstNode.remove(wordNode)
 		}
+		
+		//Iterate through the list of IDs and initialize nodes for each word
 		for (String id : this.nodeData.keySet()){
 			Map<String, String> attributeMap = new HashMap<String, String>()
 			attributeMap.put('to', this.nodeData.get(id).get('to'))
