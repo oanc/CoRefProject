@@ -53,7 +53,6 @@ class XmlModifier {
 			
 			this.nodeData.put(wordID, featureMap)
 		}
-		//System.out.println(this.nodeData.toMapString())
 	}
 	
 	
@@ -137,9 +136,6 @@ class XmlModifier {
 		ArrayList<String> printedIDs = new ArrayList<String>()
 
 		for (String id: IDs){
-		
-			// TO FIX : ADD CODE TO INCLUDE NODES THAT STILL HAVE A 'MATCHES' FEATURE, not just newMatches
-			
 			
 			if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
 				

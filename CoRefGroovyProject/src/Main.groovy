@@ -8,8 +8,14 @@ class Main {
 	public static void main(String[] args){
 		
 		//Parse xml file using XmlParser
+		
+		
 		String originalFiles = 'CoRefFiles/'
-		String fileName  = '110CYL069-coRef.xml'
+		
+		//--INPUT FILE HERE--//
+		String fileName  = 'Article247_327-coRef.xml'
+	
+
 		File file = new File(originalFiles + fileName)
 		XmlParser parser = new XmlParser()
 		Node tree = parser.parse(file)
