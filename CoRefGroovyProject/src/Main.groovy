@@ -26,7 +26,7 @@ class Main {
 		XmlNodePrinter printer = new XmlNodePrinter(new PrintWriter(new FileWriter(outputDirectory + '/Modified_' + root)))
 		printer.print(newTree)
 		
-		
+		modifier.printChainsToFile(outputDirectory, root)
 	}
 }
 

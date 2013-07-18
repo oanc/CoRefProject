@@ -220,6 +220,58 @@ class XmlModifier {
 		}
 		return this.node
 	}	
+
+
+/**
+ * Print information to console about each coreference chain
+ */
+private void printChainsToFile(String outputDirectory, String fileRoot){
+	
+	String[] fileRootSplit = fileRoot.split('-')
+	String fileName = fileRootSplit[0]
+	
+	PrintWriter writer = new PrintWriter(new File(outputDirectory + '/' + fileName + '-coref-chains.txt')) 
+	writer.println("-----COREFERENCE CHAIN SUMMARY-----")
+	writer.println("-----------------------------------")
+	writer.println('')
+	
+	ArrayList<String> IDs = this.nodeData.keySet()
+	ArrayList<String> printedIDs = new ArrayList<String>()
+
+	for (String id: IDs){
+		
+		if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
+			
+			printedIDs.add(id)
+			writer.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ')
+			
+			String matchesNoClosures = this.nodeData.get(id).get('newMatches').substring(1, this.nodeData.get(id).get('newMatches').size() - 1)
+			ArrayList<String> matchSet = new ArrayList<String>(Arrays.asList(matchesNoClosures.split(", ")))
+			
+			int index = 0
+			
+			for(int i = 0; i < matchSet.size(); i ++){
+				String matchString
+				if(matchSet.get(i).charAt(0) == ' '){
+					matchString = matchSet.get(i).substring(1, matchSet.get(i).size())
+				}
+				else{
+					matchString = matchSet.get(i)
+				}
+				printedIDs.add(matchSet.get(i))
+				if (this.missingIDs.contains(matchString)){
+					writer.println('  >>> ID ' + matchString + " DOES NOT EXIST")
+				}
+				else{
+					index++
+					writer.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to'))
+				}
+				}
+				
+		}
+	}
+	writer.close()
 }
 
+}
 
