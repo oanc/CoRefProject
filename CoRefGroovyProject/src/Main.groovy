@@ -5,7 +5,11 @@ class Main {
 	public static void main(String[] args){
 		
 		//Read user input
-		String fileName = args[0];
+		String fileName = args[0]
+		String outputDirectory = args[1]
+				
+		String[] fileString = fileName.split('/')
+		String root = fileString[fileString.size()-1]
 		
 		//Parse xml file using XmlParser
 
@@ -19,7 +23,7 @@ class Main {
 		modifier.printChains()
 		Node newTree = modifier.hashMaptoNode()
 
-		XmlNodePrinter printer = new XmlNodePrinter(new PrintWriter(new FileWriter('Modified_' + fileName)))
+		XmlNodePrinter printer = new XmlNodePrinter(new PrintWriter(new FileWriter(outputDirectory + '/Modified_' + root)))
 		printer.print(newTree)
 		
 		
