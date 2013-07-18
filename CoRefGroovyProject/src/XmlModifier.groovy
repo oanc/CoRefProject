@@ -140,7 +140,7 @@ class XmlModifier {
 			if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
 				
 				printedIDs.add(id)
-				System.out.println('Coreference chain starting at ID ' + id + ':')
+				System.out.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ')
 				
 				String matchesNoClosures = this.nodeData.get(id).get('newMatches').substring(1, this.nodeData.get(id).get('newMatches').size() - 1)
 				ArrayList<String> matchSet = new ArrayList<String>(Arrays.asList(matchesNoClosures.split(", ")))
