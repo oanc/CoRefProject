@@ -280,7 +280,12 @@ private void printChainsToFile(String outputDirectory, String fileRoot){
 	writer.close()
 }
 
-
+/**
+ * Retrieve the original text of an item using a UTF8Reader. 
+ * @param from
+ * @param to
+ * @return
+ */
 private String getText(String from, String to){
 	Integer fromInt = Integer.parseInt(from)
 	Integer toInt = Integer.parseInt(to)
