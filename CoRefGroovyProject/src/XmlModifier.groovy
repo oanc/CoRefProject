@@ -1,19 +1,26 @@
 
+@Grab("org.anc:common:3.1.0")
+import org.anc.io.*
+
 class XmlModifier {
 	
 	private Node node;
 	private ArrayList<String> missingIDs;
 	private HashMap<String, HashMap<String, String>> nodeData;
+	private String file;
+	private String textDirectory;
 	
 	
 	/**
 	 * Constructor for class XmlModifier
 	 * @param node
 	 */
-	public XmlModifier(Node node){
+	public XmlModifier(Node node, String file, String textDirectory){
 		this.node = node;
 		this.nodeData = new HashMap<String, HashMap<String, String>>()
 		this.missingIDs = new ArrayList<String>()
+		this.file = file;
+		this.textDirectory = textDirectory;
 	}
 	
 	/**
@@ -140,7 +147,7 @@ class XmlModifier {
 			if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
 				
 				printedIDs.add(id)
-				System.out.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ')
+				System.out.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ' + this.getText(this.nodeData.get(id).get('from'), this.nodeData.get(id).get('to')))
 				
 				String matchesNoClosures = this.nodeData.get(id).get('newMatches').substring(1, this.nodeData.get(id).get('newMatches').size() - 1)
 				ArrayList<String> matchSet = new ArrayList<String>(Arrays.asList(matchesNoClosures.split(", ")))
@@ -161,7 +168,7 @@ class XmlModifier {
 					}
 					else{
 						index++
-						System.out.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to'))	
+						System.out.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to') + ' ' + this.getText(this.nodeData.get(matchString).get('from'), this.nodeData.get(matchString).get('to')))	
 					}
 					}
 					
@@ -243,7 +250,7 @@ private void printChainsToFile(String outputDirectory, String fileRoot){
 		if (this.nodeData.get(id).containsKey('newMatches') && (this.nodeData.get(id).get('newMatches').size() != 2) && (!(printedIDs.contains(id)))){
 			
 			printedIDs.add(id)
-			writer.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ')
+			writer.println('Coreference chain starting at ID ' + id + ',' + this.nodeData.get(id).get('classification') + ': ' + this.getText(this.nodeData.get(id).get('from'), this.nodeData.get(id).get('to')))
 			
 			String matchesNoClosures = this.nodeData.get(id).get('newMatches').substring(1, this.nodeData.get(id).get('newMatches').size() - 1)
 			ArrayList<String> matchSet = new ArrayList<String>(Arrays.asList(matchesNoClosures.split(", ")))
@@ -264,13 +271,23 @@ private void printChainsToFile(String outputDirectory, String fileRoot){
 				}
 				else{
 					index++
-					writer.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to'))
+					writer.println("  (" + index + ') ' + this.nodeData.get(matchString).get('classification') + ' ' + matchString + ' ' + this.nodeData.get(matchString).get('from') + ' ' + this.nodeData.get(matchString).get('to') + ' ' + this.getText(this.nodeData.get(matchString).get('from'), this.nodeData.get(matchString).get('to')))
 				}
 				}
 				
 		}
 	}
 	writer.close()
+}
+
+
+private String getText(String from, String to){
+	Integer fromInt = Integer.parseInt(from)
+	Integer toInt = Integer.parseInt(to)
+	UTF8Reader reader = new UTF8Reader(new File(this.textDirectory + '/' + this.file + '.txt'))
+	String contents = reader.readString();
+	reader.close();
+	return contents.substring(fromInt, toInt);
 }
 
 }
