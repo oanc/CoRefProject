@@ -1,0 +1,3035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="Money" occurs="2"/>
+            <labelUsage label="Date" occurs="19"/>
+            <labelUsage label="Location" occurs="7"/>
+            <labelUsage label="Organization" occurs="5"/>
+            <labelUsage label="PRN" occurs="59"/>
+            <labelUsage label="Person" occurs="10"/>
+            <labelUsage label="Markable" occurs="2"/>
+            <labelUsage label="NounChunk" occurs="152"/>
+        </labelsDecl>
+        <annotationSpaces>
+            <annotationSpace as.id="anc"/>
+        </annotationSpaces>
+    </graphHeader>
+    <region xml:id="r0" anchors="14 17"/>
+    <region xml:id="r1" anchors="23 24"/>
+    <region xml:id="r4" anchors="40 76"/>
+    <region xml:id="r5" anchors="40 52"/>
+    <region xml:id="r7" anchors="57 62"/>
+    <region xml:id="r9" anchors="64 67"/>
+    <region xml:id="r11" anchors="72 76"/>
+    <region xml:id="r12" anchors="81 83"/>
+    <region xml:id="r14" anchors="93 101"/>
+    <region xml:id="r15" anchors="102 112"/>
+    <region xml:id="r16" anchors="117 124"/>
+    <region xml:id="r17" anchors="128 141"/>
+    <region xml:id="r19" anchors="143 144"/>
+    <region xml:id="r21" anchors="179 184"/>
+    <region xml:id="r23" anchors="188 191"/>
+    <region xml:id="r25" anchors="196 200"/>
+    <region xml:id="r27" anchors="214 218"/>
+    <region xml:id="r28" anchors="233 236"/>
+    <region xml:id="r31" anchors="246 249"/>
+    <region xml:id="r32" anchors="255 257"/>
+    <region xml:id="r34" anchors="265 273"/>
+    <region xml:id="r35" anchors="277 283"/>
+    <region xml:id="r37" anchors="288 300"/>
+    <region xml:id="r38" anchors="307 310"/>
+    <region xml:id="r41" anchors="321 323"/>
+    <region xml:id="r43" anchors="342 343"/>
+    <region xml:id="r44" anchors="351 355"/>
+    <region xml:id="r46" anchors="360 366"/>
+    <region xml:id="r48" anchors="380 381"/>
+    <region xml:id="r50" anchors="394 397"/>
+    <region xml:id="r51" anchors="401 416"/>
+    <region xml:id="r53" anchors="421 425"/>
+    <region xml:id="r54" anchors="430 436"/>
+    <region xml:id="r57" anchors="441 442"/>
+    <region xml:id="r59" anchors="460 463"/>
+    <region xml:id="r60" anchors="464 475"/>
+    <region xml:id="r62" anchors="480 481"/>
+    <region xml:id="r63" anchors="488 492"/>
+    <region xml:id="r64" anchors="509 524"/>
+    <region xml:id="r65" anchors="528 535"/>
+    <region xml:id="r66" anchors="537 545"/>
+    <region xml:id="r67" anchors="556 561"/>
+    <region xml:id="r68" anchors="562 570"/>
+    <region xml:id="r69" anchors="576 582"/>
+    <region xml:id="r72" anchors="584 585"/>
+    <region xml:id="r73" anchors="608 617"/>
+    <region xml:id="r75" anchors="618 623"/>
+    <region xml:id="r76" anchors="639 641"/>
+    <region xml:id="r78" anchors="647 651"/>
+    <region xml:id="r79" anchors="652 655"/>
+    <region xml:id="r81" anchors="683 688"/>
+    <region xml:id="r83" anchors="687 688"/>
+    <region xml:id="r84" anchors="704 714"/>
+    <region xml:id="r85" anchors="715 728"/>
+    <region xml:id="r87" anchors="719 728"/>
+    <region xml:id="r88" anchors="734 739"/>
+    <region xml:id="r89" anchors="752 759"/>
+    <region xml:id="r90" anchors="765 781"/>
+    <region xml:id="r91" anchors="765 769"/>
+    <region xml:id="r92" anchors="773 781"/>
+    <region xml:id="r93" anchors="793 796"/>
+    <region xml:id="r95" anchors="820 825"/>
+    <region xml:id="r97" anchors="837 840"/>
+    <region xml:id="r99" anchors="848 853"/>
+    <region xml:id="r100" anchors="863 873"/>
+    <region xml:id="r102" anchors="885 889"/>
+    <region xml:id="r104" anchors="907 910"/>
+    <region xml:id="r105" anchors="921 942"/>
+    <region xml:id="r106" anchors="948 950"/>
+    <region xml:id="r108" anchors="966 977"/>
+    <region xml:id="r109" anchors="983 987"/>
+    <region xml:id="r110" anchors="1011 1021"/>
+    <region xml:id="r111" anchors="1022 1024"/>
+    <region xml:id="r113" anchors="1029 1033"/>
+    <region xml:id="r115" anchors="1039 1043"/>
+    <region xml:id="r117" anchors="1044 1048"/>
+    <region xml:id="r119" anchors="1053 1055"/>
+    <region xml:id="r120" anchors="1061 1062"/>
+    <region xml:id="r122" anchors="1083 1086"/>
+    <region xml:id="r124" anchors="1091 1095"/>
+    <region xml:id="r126" anchors="1100 1106"/>
+    <region xml:id="r128" anchors="1117 1121"/>
+    <region xml:id="r129" anchors="1125 1128"/>
+    <region xml:id="r131" anchors="1135 1149"/>
+    <region xml:id="r132" anchors="1156 1160"/>
+    <region xml:id="r134" anchors="1185 1197"/>
+    <region xml:id="r136" anchors="1203 1205"/>
+    <region xml:id="r137" anchors="1217 1228"/>
+    <region xml:id="r138" anchors="1235 1241"/>
+    <region xml:id="r139" anchors="1243 1246"/>
+    <region xml:id="r140" anchors="1259 1266"/>
+    <region xml:id="r141" anchors="1272 1288"/>
+    <region xml:id="r142" anchors="1272 1276"/>
+    <region xml:id="r143" anchors="1280 1288"/>
+    <region xml:id="r144" anchors="1293 1298"/>
+    <region xml:id="r146" anchors="1302 1326"/>
+    <region xml:id="r147" anchors="1302 1309"/>
+    <region xml:id="r148" anchors="1315 1326"/>
+    <region xml:id="r150" anchors="1328 1329"/>
+    <region xml:id="r151" anchors="1337 1351"/>
+    <region xml:id="r152" anchors="1372 1378"/>
+    <region xml:id="r153" anchors="1382 1385"/>
+    <region xml:id="r154" anchors="1389 1400"/>
+    <region xml:id="r155" anchors="1402 1405"/>
+    <region xml:id="r156" anchors="1406 1407"/>
+    <region xml:id="r158" anchors="1416 1453"/>
+    <region xml:id="r160" anchors="1454 1456"/>
+    <region xml:id="r162" anchors="1463 1464"/>
+    <region xml:id="r163" anchors="1470 1477"/>
+    <region xml:id="r164" anchors="1478 1482"/>
+    <region xml:id="r166" anchors="1490 1491"/>
+    <region xml:id="r167" anchors="1497 1502"/>
+    <region xml:id="r169" anchors="1517 1520"/>
+    <region xml:id="r170" anchors="1535 1537"/>
+    <region xml:id="r173" anchors="1546 1549"/>
+    <region xml:id="r174" anchors="1566 1569"/>
+    <region xml:id="r176" anchors="1570 1575"/>
+    <region xml:id="r178" anchors="1594 1601"/>
+    <region xml:id="r179" anchors="1603 1605"/>
+    <region xml:id="r180" anchors="1607 1623"/>
+    <region xml:id="r181" anchors="1607 1611"/>
+    <region xml:id="r182" anchors="1615 1623"/>
+    <region xml:id="r184" anchors="1631 1632"/>
+    <region xml:id="r185" anchors="1641 1644"/>
+    <region xml:id="r186" anchors="1648 1663"/>
+    <region xml:id="r188" anchors="1664 1669"/>
+    <region xml:id="r190" anchors="1671 1672"/>
+    <region xml:id="r191" anchors="1682 1685"/>
+    <region xml:id="r193" anchors="1686 1705"/>
+    <region xml:id="r196" anchors="1707 1709"/>
+    <region xml:id="r197" anchors="1738 1753"/>
+    <region xml:id="r199" anchors="1755 1756"/>
+    <region xml:id="r200" anchors="1778 1784"/>
+    <region xml:id="r202" anchors="1790 1793"/>
+    <region xml:id="r203" anchors="1797 1802"/>
+    <region xml:id="r205" anchors="1815 1817"/>
+    <region xml:id="r206" anchors="1823 1838"/>
+    <region xml:id="r207" anchors="1839 1843"/>
+    <region xml:id="r208" anchors="1844 1845"/>
+    <region xml:id="r211" anchors="1866 1867"/>
+    <region xml:id="r212" anchors="1882 1884"/>
+    <region xml:id="r215" anchors="1889 1890"/>
+    <region xml:id="r216" anchors="1906 1911"/>
+    <region xml:id="r217" anchors="1912 1918"/>
+    <region xml:id="r218" anchors="1928 1935"/>
+    <region xml:id="r219" anchors="1937 1939"/>
+    <region xml:id="r221" anchors="1957 1966"/>
+    <region xml:id="r222" anchors="1967 1975"/>
+    <region xml:id="r223" anchors="1988 1989"/>
+    <region xml:id="r226" anchors="2000 2005"/>
+    <region xml:id="r228" anchors="2007 2008"/>
+    <region xml:id="r230" anchors="2020 2026"/>
+    <region xml:id="r231" anchors="2032 2057"/>
+    <region xml:id="r232" anchors="2032 2037"/>
+    <region xml:id="r233" anchors="2059 2061"/>
+    <region xml:id="r234" anchors="2063 2079"/>
+    <region xml:id="r235" anchors="2063 2067"/>
+    <region xml:id="r236" anchors="2071 2079"/>
+    <region xml:id="r237" anchors="2084 2089"/>
+    <region xml:id="r239" anchors="2084 2088"/>
+    <region xml:id="r241" anchors="2097 2099"/>
+    <region xml:id="r243" anchors="2110 2114"/>
+    <node xml:id="n0">
+        <link targets="r0"/>
+    </node>
+    <a xml:id="a-33063" label="NounChunk" ref="n0" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n0 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2643"/>
+            <f name="graf:id" value="nc-n0"/>
+        </fs>
+    </a>
+    <a xml:id="a-33064" label="Person" ref="n0" as="anc">
+        <fs>
+            <f name="id" value="2642"/>
+            <f name="gender" value="female"/>
+            <f name="graf:id" value="ne-n0"/>
+            <f name="graf:edge" value="penn-n0 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="matches" value="[2642, 2766]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n1">
+        <link targets="r1"/>
+    </node>
+    <a xml:id="a-33065" label="NounChunk" ref="n1" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n1"/>
+            <f name="graf:edge" value="penn-n2 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2645"/>
+        </fs>
+    </a>
+    <a xml:id="a-33066" label="PRN" ref="n1" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1267"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n10">
+        <link targets="r16"/>
+    </node>
+    <a xml:id="a-33080" label="NounChunk" ref="n10" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n9"/>
+            <f name="graf:edge" value="penn-n21 penn-n20 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2655"/>
+        </fs>
+    </a>
+    <node xml:id="n100">
+        <link targets="r152"/>
+    </node>
+    <a xml:id="a-33222" label="NounChunk" ref="n100" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n94"/>
+            <f name="graf:edge" value="penn-n289 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2779"/>
+        </fs>
+    </a>
+    <node xml:id="n101">
+        <link targets="r153"/>
+    </node>
+    <a xml:id="a-33223" label="NounChunk" ref="n101" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n95"/>
+            <f name="graf:edge" value="penn-n291 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2780"/>
+        </fs>
+    </a>
+    <node xml:id="n102">
+        <link targets="r154"/>
+    </node>
+    <a xml:id="a-33224" label="NounChunk" ref="n102" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n96"/>
+            <f name="graf:edge" value="penn-n294 penn-n293 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2781"/>
+        </fs>
+    </a>
+    <node xml:id="n103">
+        <link targets="r155"/>
+    </node>
+    <a xml:id="a-33225" label="NounChunk" ref="n103" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n97"/>
+            <f name="graf:edge" value="penn-n296 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2782"/>
+        </fs>
+    </a>
+    <node xml:id="n104">
+        <link targets="r156"/>
+    </node>
+    <a xml:id="a-33226" label="NounChunk" ref="n104" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n98"/>
+            <f name="graf:edge" value="penn-n297 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2783"/>
+        </fs>
+    </a>
+    <a xml:id="a-33227" label="PRN" ref="n104" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1305"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <node xml:id="n105">
+        <link targets="r158"/>
+    </node>
+    <a xml:id="a-33228" label="NounChunk" ref="n105" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n99"/>
+            <f name="graf:edge" value="penn-n304 penn-n303 penn-n302 penn-n301 penn-n300 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2785"/>
+        </fs>
+    </a>
+    <node xml:id="n106">
+        <link targets="r160"/>
+    </node>
+    <a xml:id="a-33229" label="PRN" ref="n106" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[60]"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1306"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <a xml:id="a-33230" label="NounChunk" ref="n106" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n100"/>
+            <f name="graf:edge" value="penn-n305 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2786"/>
+        </fs>
+    </a>
+    <node xml:id="n107">
+        <link targets="r162"/>
+    </node>
+    <a xml:id="a-33231" label="PRN" ref="n107" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1307"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33232" label="NounChunk" ref="n107" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n101"/>
+            <f name="graf:edge" value="penn-n308 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2788"/>
+        </fs>
+    </a>
+    <node xml:id="n108">
+        <link targets="r163"/>
+    </node>
+    <a xml:id="a-33233" label="NounChunk" ref="n108" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n102"/>
+            <f name="graf:edge" value="penn-n311 penn-n310 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2790"/>
+        </fs>
+    </a>
+    <node xml:id="n109">
+        <link targets="r164"/>
+    </node>
+    <a xml:id="a-33234" label="NounChunk" ref="n109" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n103"/>
+            <f name="graf:edge" value="penn-n312 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2791"/>
+        </fs>
+    </a>
+    <node xml:id="n11">
+        <link targets="r17"/>
+    </node>
+    <a xml:id="a-33081" label="NounChunk" ref="n11" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n10"/>
+            <f name="graf:edge" value="penn-n30 penn-n29 penn-n28 penn-n27 penn-n26 penn-n25 penn-n24 penn-n23 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2656"/>
+        </fs>
+    </a>
+    <a xml:id="a-33082" label="Money" ref="n11" as="anc">
+        <fs>
+            <f name="id" value="e4"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n110">
+        <link targets="r166"/>
+    </node>
+    <a xml:id="a-33235" label="PRN" ref="n110" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1308"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33236" label="NounChunk" ref="n110" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n104"/>
+            <f name="graf:edge" value="penn-n315 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2792"/>
+        </fs>
+    </a>
+    <node xml:id="n111">
+        <link targets="r167"/>
+    </node>
+    <a xml:id="a-33237" label="NounChunk" ref="n111" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n105"/>
+            <f name="graf:edge" value="penn-n317 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2794"/>
+        </fs>
+    </a>
+    <a xml:id="a-33238" label="Person" ref="n111" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n317 "/>
+            <f name="graf:id" value="ne-n13"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2795"/>
+        </fs>
+    </a>
+    <node xml:id="n112">
+        <link targets="r169"/>
+    </node>
+    <a xml:id="a-33239" label="PRN" ref="n112" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e24"/>
+            <f name="gender" value="either"/>
+        </fs>
+    </a>
+    <a xml:id="a-33240" label="NounChunk" ref="n112" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n106"/>
+            <f name="graf:edge" value="penn-n320 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2796"/>
+        </fs>
+    </a>
+    <node xml:id="n113">
+        <link targets="r170"/>
+    </node>
+    <a xml:id="a-33241" label="NounChunk" ref="n113" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n107"/>
+            <f name="graf:edge" value="penn-n324 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2797"/>
+        </fs>
+    </a>
+    <a xml:id="a-33242" label="PRN" ref="n113" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="me"/>
+            <f name="id" value="1309"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <node xml:id="n114">
+        <link targets="r173"/>
+    </node>
+    <a xml:id="a-33243" label="PRN" ref="n114" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1310"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33244" label="NounChunk" ref="n114" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n108"/>
+            <f name="graf:edge" value="penn-n327 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2800"/>
+        </fs>
+    </a>
+    <node xml:id="n115">
+        <link targets="r174"/>
+    </node>
+    <a xml:id="a-33245" label="NounChunk" ref="n115" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n109"/>
+            <f name="graf:edge" value="penn-n332 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2801"/>
+        </fs>
+    </a>
+    <a xml:id="a-33246" label="PRN" ref="n115" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1311"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="third"/>
+            <f name="case" value="possessive"/>
+            <f name="gender" value="female"/>
+            <f name="string" value="her"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2795]"/>
+        </fs>
+    </a>
+    <node xml:id="n116">
+        <link targets="r176"/>
+    </node>
+    <a xml:id="a-33247" label="NounChunk" ref="n116" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n110"/>
+            <f name="graf:edge" value="penn-n333 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2803"/>
+        </fs>
+    </a>
+    <a xml:id="a-33248" label="Date" ref="n116" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e25"/>
+        </fs>
+    </a>
+    <node xml:id="n117">
+        <link targets="r178"/>
+    </node>
+    <a xml:id="a-33249" label="NounChunk" ref="n117" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n111"/>
+            <f name="graf:edge" value="penn-n335 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2804"/>
+        </fs>
+    </a>
+    <node xml:id="n118">
+        <link targets="r179"/>
+    </node>
+    <a xml:id="a-33250" label="NounChunk" ref="n118" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n112"/>
+            <f name="graf:edge" value="penn-n337 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2805"/>
+        </fs>
+    </a>
+    <node xml:id="n119">
+        <link targets="r180"/>
+    </node>
+    <a xml:id="a-33251" label="Organization" ref="n119" as="anc">
+        <fs>
+            <f name="id" value="165"/>
+            <f name="type" value="government"/>
+            <f name="graf:id" value="ne-n14"/>
+            <f name="graf:edge" value="penn-n340 penn-n339 penn-n341 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n12">
+        <link targets="r19"/>
+    </node>
+    <a xml:id="a-33083" label="NounChunk" ref="n12" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n11"/>
+            <f name="graf:edge" value="penn-n32 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2657"/>
+        </fs>
+    </a>
+    <a xml:id="a-33084" label="PRN" ref="n12" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="gender" value="either"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="type" value="anaphoric"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1269"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n120">
+        <link targets="r181"/>
+    </node>
+    <a xml:id="a-33252" label="NounChunk" ref="n120" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n113"/>
+            <f name="graf:edge" value="penn-n339 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2807"/>
+        </fs>
+    </a>
+    <node xml:id="n121">
+        <link targets="r182"/>
+    </node>
+    <a xml:id="a-33253" label="Location" ref="n121" as="anc">
+        <fs>
+            <f name="id" value="e26"/>
+            <f name="locType" value="city"/>
+            <f name="graf:id" value="ne-n15"/>
+            <f name="graf:edge" value="penn-n341 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33254" label="NounChunk" ref="n121" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n114"/>
+            <f name="graf:edge" value="penn-n341 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2809"/>
+        </fs>
+    </a>
+    <node xml:id="n122">
+        <link targets="r184"/>
+    </node>
+    <a xml:id="a-33255" label="PRN" ref="n122" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1312"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33256" label="NounChunk" ref="n122" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n115"/>
+            <f name="graf:edge" value="penn-n343 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2811"/>
+        </fs>
+    </a>
+    <node xml:id="n123">
+        <link targets="r185"/>
+    </node>
+    <a xml:id="a-33257" label="NounChunk" ref="n123" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n116"/>
+            <f name="graf:edge" value="penn-n346 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2812"/>
+        </fs>
+    </a>
+    <node xml:id="n124">
+        <link targets="r186"/>
+    </node>
+    <a xml:id="a-33258" label="NounChunk" ref="n124" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n117"/>
+            <f name="graf:edge" value="penn-n349 penn-n348 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2813"/>
+        </fs>
+    </a>
+    <node xml:id="n125">
+        <link targets="r188"/>
+    </node>
+    <a xml:id="a-33259" label="Date" ref="n125" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e27"/>
+        </fs>
+    </a>
+    <a xml:id="a-33260" label="NounChunk" ref="n125" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n118"/>
+            <f name="graf:edge" value="penn-n350 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2814"/>
+        </fs>
+    </a>
+    <node xml:id="n126">
+        <link targets="r190"/>
+    </node>
+    <a xml:id="a-33261" label="PRN" ref="n126" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1313"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33262" label="NounChunk" ref="n126" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n119"/>
+            <f name="graf:edge" value="penn-n352 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2815"/>
+        </fs>
+    </a>
+    <node xml:id="n127">
+        <link targets="r191"/>
+    </node>
+    <a xml:id="a-33263" label="NounChunk" ref="n127" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n120"/>
+            <f name="graf:edge" value="penn-n355 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2818"/>
+        </fs>
+    </a>
+    <a xml:id="a-33264" label="PRN" ref="n127" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1314"/>
+            <f name="matches" value="[2766]"/>
+        </fs>
+    </a>
+    <node xml:id="n128">
+        <link targets="r193"/>
+    </node>
+    <a xml:id="a-33265" label="NounChunk" ref="n128" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n121"/>
+            <f name="graf:edge" value="penn-n357 penn-n356 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2819"/>
+        </fs>
+    </a>
+    <a xml:id="a-33266" label="Date" ref="n128" as="anc">
+        <fs>
+            <f name="kind" value="time"/>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e28"/>
+        </fs>
+    </a>
+    <node xml:id="n129">
+        <link targets="r196"/>
+    </node>
+    <a xml:id="a-33267" label="PRN" ref="n129" as="anc">
+        <fs>
+            <f name="id" value="1315"/>
+            <f name="matches" value="[]"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Thing"/>
+            <f name="person" value="third"/>
+            <f name="case" value="nominative"/>
+            <f name="string" value="It"/>
+        </fs>
+    </a>
+    <a xml:id="a-33268" label="NounChunk" ref="n129" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n122"/>
+            <f name="graf:edge" value="penn-n359 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2820"/>
+        </fs>
+    </a>
+    <node xml:id="n13">
+        <link targets="r21"/>
+    </node>
+    <a xml:id="a-33085" label="Person" ref="n13" as="anc">
+        <fs>
+            <f name="id" value="2659"/>
+            <f name="gender" value="female"/>
+            <f name="graf:id" value="ne-n2"/>
+            <f name="graf:edge" value="penn-n39 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="matches" value="[2659, 2773, 2795, 2830, 2843]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <a xml:id="a-33086" label="NounChunk" ref="n13" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n39 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2660"/>
+            <f name="graf:id" value="nc-n12"/>
+        </fs>
+    </a>
+    <node xml:id="n130">
+        <link targets="r197"/>
+    </node>
+    <a xml:id="a-33269" label="NounChunk" ref="n130" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n123"/>
+            <f name="graf:edge" value="penn-n368 penn-n367 penn-n366 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2822"/>
+        </fs>
+    </a>
+    <node xml:id="n131">
+        <link targets="r199"/>
+    </node>
+    <a xml:id="a-33270" label="PRN" ref="n131" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1316"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33271" label="NounChunk" ref="n131" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n124"/>
+            <f name="graf:edge" value="penn-n370 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2824"/>
+        </fs>
+    </a>
+    <node xml:id="n132">
+        <link targets="r200"/>
+    </node>
+    <a xml:id="a-33272" label="NounChunk" ref="n132" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n125"/>
+            <f name="graf:edge" value="penn-n373 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2825"/>
+        </fs>
+    </a>
+    <a xml:id="a-33273" label="Person" ref="n132" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n373 "/>
+            <f name="graf:id" value="ne-n16"/>
+            <f name="gender" value="male"/>
+            <f name="id" value="2826"/>
+        </fs>
+    </a>
+    <node xml:id="n133">
+        <link targets="r202"/>
+    </node>
+    <a xml:id="a-33274" label="PRN" ref="n133" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1318"/>
+            <f name="matches" value="[2766]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33275" label="NounChunk" ref="n133" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n126"/>
+            <f name="graf:edge" value="penn-n375 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2828"/>
+        </fs>
+    </a>
+    <node xml:id="n134">
+        <link targets="r203"/>
+    </node>
+    <a xml:id="a-33276" label="Person" ref="n134" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n377 "/>
+            <f name="graf:id" value="ne-n17"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2830"/>
+        </fs>
+    </a>
+    <a xml:id="a-33277" label="NounChunk" ref="n134" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n127"/>
+            <f name="graf:edge" value="penn-n377 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2829"/>
+        </fs>
+    </a>
+    <node xml:id="n135">
+        <link targets="r205"/>
+    </node>
+    <a xml:id="a-33278" label="PRN" ref="n135" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="me"/>
+            <f name="id" value="1319"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33279" label="NounChunk" ref="n135" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n128"/>
+            <f name="graf:edge" value="penn-n380 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2831"/>
+        </fs>
+    </a>
+    <node xml:id="n136">
+        <link targets="r206"/>
+    </node>
+    <a xml:id="a-33280" label="NounChunk" ref="n136" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n383 penn-n382 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2833"/>
+            <f name="graf:id" value="nc-n129"/>
+        </fs>
+    </a>
+    <node xml:id="n137">
+        <link targets="r207"/>
+    </node>
+    <a xml:id="a-33281" label="NounChunk" ref="n137" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n130"/>
+            <f name="graf:edge" value="penn-n384 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2834"/>
+        </fs>
+    </a>
+    <node xml:id="n138">
+        <link targets="r208"/>
+    </node>
+    <a xml:id="a-33282" label="NounChunk" ref="n138" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n131"/>
+            <f name="graf:edge" value="penn-n385 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2836"/>
+        </fs>
+    </a>
+    <a xml:id="a-33283" label="PRN" ref="n138" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1321"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <node xml:id="n139">
+        <link targets="r211"/>
+    </node>
+    <a xml:id="a-33284" label="PRN" ref="n139" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1322"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33285" label="NounChunk" ref="n139" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n132"/>
+            <f name="graf:edge" value="penn-n391 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2837"/>
+        </fs>
+    </a>
+    <node xml:id="n14">
+        <link targets="r23"/>
+    </node>
+    <a xml:id="a-33087" label="Date" ref="n14" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e5"/>
+        </fs>
+    </a>
+    <a xml:id="a-33088" label="NounChunk" ref="n14" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n13"/>
+            <f name="graf:edge" value="penn-n41 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2661"/>
+        </fs>
+    </a>
+    <node xml:id="n140">
+        <link targets="r212"/>
+    </node>
+    <a xml:id="a-33286" label="NounChunk" ref="n140" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n133"/>
+            <f name="graf:edge" value="penn-n395 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2840"/>
+        </fs>
+    </a>
+    <a xml:id="a-33287" label="PRN" ref="n140" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2833]"/>
+            <f name="id" value="1323"/>
+            <f name="string" value="it"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Thing"/>
+            <f name="number" value="singular"/>
+        </fs>
+    </a>
+    <node xml:id="n141">
+        <link targets="r215"/>
+    </node>
+    <a xml:id="a-33288" label="PRN" ref="n141" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1324"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33289" label="NounChunk" ref="n141" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n134"/>
+            <f name="graf:edge" value="penn-n398 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2841"/>
+        </fs>
+    </a>
+    <node xml:id="n142">
+        <link targets="r216"/>
+    </node>
+    <a xml:id="a-33290" label="Person" ref="n142" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n401 "/>
+            <f name="graf:id" value="ne-n18"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2843"/>
+        </fs>
+    </a>
+    <a xml:id="a-33291" label="NounChunk" ref="n142" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n135"/>
+            <f name="graf:edge" value="penn-n401 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2844"/>
+        </fs>
+    </a>
+    <node xml:id="n143">
+        <link targets="r217"/>
+    </node>
+    <a xml:id="a-33292" label="NounChunk" ref="n143" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n136"/>
+            <f name="graf:edge" value="penn-n403 penn-n402 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2845"/>
+        </fs>
+    </a>
+    <node xml:id="n144">
+        <link targets="r218"/>
+    </node>
+    <a xml:id="a-33293" label="NounChunk" ref="n144" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n137"/>
+            <f name="graf:edge" value="penn-n406 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2846"/>
+        </fs>
+    </a>
+    <node xml:id="n145">
+        <link targets="r219"/>
+    </node>
+    <a xml:id="a-33294" label="NounChunk" ref="n145" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n138"/>
+            <f name="graf:edge" value="penn-n408 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2847"/>
+        </fs>
+    </a>
+    <a xml:id="a-33295" label="PRN" ref="n145" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1325"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <node xml:id="n146">
+        <link targets="r221"/>
+    </node>
+    <a xml:id="a-33296" label="NounChunk" ref="n146" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n139"/>
+            <f name="graf:edge" value="penn-n413 penn-n412 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2849"/>
+        </fs>
+    </a>
+    <node xml:id="n147">
+        <link targets="r222"/>
+    </node>
+    <a xml:id="a-33297" label="NounChunk" ref="n147" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n140"/>
+            <f name="graf:edge" value="penn-n414 penn-n415 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2850"/>
+        </fs>
+    </a>
+    <node xml:id="n148">
+        <link targets="r223"/>
+    </node>
+    <a xml:id="a-33298" label="NounChunk" ref="n148" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n141"/>
+            <f name="graf:edge" value="penn-n421 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2852"/>
+        </fs>
+    </a>
+    <a xml:id="a-33299" label="PRN" ref="n148" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1326"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <node xml:id="n149">
+        <link targets="r226"/>
+    </node>
+    <a xml:id="a-33300" label="Date" ref="n149" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e29"/>
+        </fs>
+    </a>
+    <a xml:id="a-33301" label="NounChunk" ref="n149" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n142"/>
+            <f name="graf:edge" value="penn-n423 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2853"/>
+        </fs>
+    </a>
+    <node xml:id="n15">
+        <link targets="r25"/>
+    </node>
+    <a xml:id="a-33089" label="Date" ref="n15" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e6"/>
+        </fs>
+    </a>
+    <a xml:id="a-33090" label="NounChunk" ref="n15" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n14"/>
+            <f name="graf:edge" value="penn-n43 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2662"/>
+        </fs>
+    </a>
+    <node xml:id="n150">
+        <link targets="r228"/>
+    </node>
+    <a xml:id="a-33302" label="PRN" ref="n150" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1327"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2858]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33303" label="NounChunk" ref="n150" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n143"/>
+            <f name="graf:edge" value="penn-n425 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2855"/>
+        </fs>
+    </a>
+    <node xml:id="n151">
+        <link targets="r230"/>
+    </node>
+    <a xml:id="a-33304" label="Date" ref="n151" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e30"/>
+        </fs>
+    </a>
+    <a xml:id="a-33305" label="NounChunk" ref="n151" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n144"/>
+            <f name="graf:edge" value="penn-n429 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2856"/>
+        </fs>
+    </a>
+    <node xml:id="n152">
+        <link targets="r231"/>
+    </node>
+    <a xml:id="a-33306" label="NounChunk" ref="n152" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n145"/>
+            <f name="graf:edge" value="penn-n432 penn-n431 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2857"/>
+        </fs>
+    </a>
+    <node xml:id="n153">
+        <link targets="r232"/>
+    </node>
+    <a xml:id="a-33307" label="Person" ref="n153" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n431 "/>
+            <f name="graf:id" value="ne-n19"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2858"/>
+        </fs>
+    </a>
+    <node xml:id="n154">
+        <link targets="r233"/>
+    </node>
+    <a xml:id="a-33308" label="NounChunk" ref="n154" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n146"/>
+            <f name="graf:edge" value="penn-n434 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2859"/>
+        </fs>
+    </a>
+    <node xml:id="n155">
+        <link targets="r234"/>
+    </node>
+    <a xml:id="a-33309" label="Organization" ref="n155" as="anc">
+        <fs>
+            <f name="id" value="219"/>
+            <f name="type" value="government"/>
+            <f name="graf:id" value="ne-n20"/>
+            <f name="graf:edge" value="penn-n438 penn-n437 penn-n436 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n156">
+        <link targets="r235"/>
+    </node>
+    <a xml:id="a-33310" label="NounChunk" ref="n156" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n147"/>
+            <f name="graf:edge" value="penn-n436 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2861"/>
+        </fs>
+    </a>
+    <node xml:id="n157">
+        <link targets="r236"/>
+    </node>
+    <a xml:id="a-33311" label="Location" ref="n157" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e31"/>
+            <f name="locType" value="city"/>
+            <f name="graf:id" value="ne-n21"/>
+            <f name="graf:edge" value="penn-n438 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33312" label="NounChunk" ref="n157" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n148"/>
+            <f name="graf:edge" value="penn-n438 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2862"/>
+        </fs>
+    </a>
+    <node xml:id="n158">
+        <link targets="r237"/>
+    </node>
+    <a xml:id="a-33313" label="NounChunk" ref="n158" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n149"/>
+            <f name="graf:edge" value="penn-n439 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2864"/>
+        </fs>
+    </a>
+    <node xml:id="n159">
+        <link targets="r239"/>
+    </node>
+    <a xml:id="a-33314" label="PRN" ref="n159" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e32"/>
+        </fs>
+    </a>
+    <node xml:id="n16">
+        <link targets="r27"/>
+    </node>
+    <a xml:id="a-33091" label="PRN" ref="n16" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="third"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="they"/>
+            <f name="id" value="1270"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33092" label="NounChunk" ref="n16" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n15"/>
+            <f name="graf:edge" value="penn-n47 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2664"/>
+        </fs>
+    </a>
+    <node xml:id="n160">
+        <link targets="r241"/>
+    </node>
+    <a xml:id="a-33315" label="PRN" ref="n160" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="gender" value="either"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="type" value="anaphoric"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1328"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33316" label="NounChunk" ref="n160" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n150"/>
+            <f name="graf:edge" value="penn-n442 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2865"/>
+        </fs>
+    </a>
+    <node xml:id="n161">
+        <link targets="r243"/>
+    </node>
+    <a xml:id="a-33317" label="PRN" ref="n161" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="them"/>
+            <f name="id" value="1329"/>
+            <f name="matches" value="[219]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33318" label="NounChunk" ref="n161" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n151"/>
+            <f name="graf:edge" value="penn-n446 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2868"/>
+        </fs>
+    </a>
+    <node xml:id="n17">
+        <link targets="r28"/>
+    </node>
+    <a xml:id="a-33093" label="NounChunk" ref="n17" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n16"/>
+            <f name="graf:edge" value="penn-n51 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2666"/>
+        </fs>
+    </a>
+    <a xml:id="a-33094" label="PRN" ref="n17" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="female"/>
+            <f name="string" value="her"/>
+            <f name="id" value="1272"/>
+            <f name="matches" value="[2659]"/>
+        </fs>
+    </a>
+    <node xml:id="n18">
+        <link targets="r31"/>
+    </node>
+    <a xml:id="a-33095" label="PRN" ref="n18" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1274"/>
+            <f name="matches" value="[2642]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33096" label="NounChunk" ref="n18" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n17"/>
+            <f name="graf:edge" value="penn-n54 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2668"/>
+        </fs>
+    </a>
+    <node xml:id="n19">
+        <link targets="r32"/>
+    </node>
+    <a xml:id="a-33097" label="NounChunk" ref="n19" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n18"/>
+            <f name="graf:edge" value="penn-n56 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2670"/>
+        </fs>
+    </a>
+    <a xml:id="a-33098" label="PRN" ref="n19" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="me"/>
+            <f name="id" value="1275"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n2">
+        <link targets="r4"/>
+    </node>
+    <a xml:id="a-33067" label="Markable" ref="n2" as="anc">
+        <fs>
+            <f name="id" value="e18"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n20">
+        <link targets="r34"/>
+    </node>
+    <a xml:id="a-33099" label="NounChunk" ref="n20" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n19"/>
+            <f name="graf:edge" value="penn-n59 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2672"/>
+        </fs>
+    </a>
+    <a xml:id="a-33100" label="Location" ref="n20" as="anc">
+        <fs>
+            <f name="id" value="31"/>
+            <f name="type" value="city"/>
+            <f name="graf:id" value="ne-n3"/>
+            <f name="graf:edge" value="penn-n59 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n21">
+        <link targets="r35"/>
+    </node>
+    <a xml:id="a-33101" label="NounChunk" ref="n21" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n20"/>
+            <f name="graf:edge" value="penn-n61 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2673"/>
+        </fs>
+    </a>
+    <a xml:id="a-33102" label="Date" ref="n21" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e7"/>
+        </fs>
+    </a>
+    <node xml:id="n22">
+        <link targets="r37"/>
+    </node>
+    <a xml:id="a-33103" label="NounChunk" ref="n22" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e5, e6]"/>
+            <f name="id" value="2674"/>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n64 penn-n63 "/>
+            <f name="graf:id" value="nc-n21"/>
+        </fs>
+    </a>
+    <node xml:id="n23">
+        <link targets="r38"/>
+    </node>
+    <a xml:id="a-33104" label="NounChunk" ref="n23" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n22"/>
+            <f name="graf:edge" value="penn-n67 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2675"/>
+        </fs>
+    </a>
+    <a xml:id="a-33105" label="PRN" ref="n23" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="person" value="second"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="type" value="anaphoric"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1276"/>
+            <f name="matches" value="[2642]"/>
+        </fs>
+    </a>
+    <node xml:id="n24">
+        <link targets="r41"/>
+    </node>
+    <a xml:id="a-33106" label="PRN" ref="n24" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="me"/>
+            <f name="id" value="1277"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33107" label="NounChunk" ref="n24" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n23"/>
+            <f name="graf:edge" value="penn-n69 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2678"/>
+        </fs>
+    </a>
+    <node xml:id="n25">
+        <link targets="r43"/>
+    </node>
+    <a xml:id="a-33108" label="PRN" ref="n25" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1278"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33109" label="NounChunk" ref="n25" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n24"/>
+            <f name="graf:edge" value="penn-n74 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2679"/>
+        </fs>
+    </a>
+    <node xml:id="n26">
+        <link targets="r44"/>
+    </node>
+    <a xml:id="a-33110" label="NounChunk" ref="n26" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n25"/>
+            <f name="graf:edge" value="penn-n76 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2681"/>
+        </fs>
+    </a>
+    <a xml:id="a-33111" label="Date" ref="n26" as="anc">
+        <fs>
+            <f name="id" value="e8"/>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e8, e10, e20]"/>
+        </fs>
+    </a>
+    <node xml:id="n27">
+        <link targets="r46"/>
+    </node>
+    <a xml:id="a-33112" label="NounChunk" ref="n27" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n26"/>
+            <f name="graf:edge" value="penn-n78 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2682"/>
+        </fs>
+    </a>
+    <a xml:id="a-33113" label="Date" ref="n27" as="anc">
+        <fs>
+            <f name="id" value="e9"/>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e9, e11, e21]"/>
+        </fs>
+    </a>
+    <node xml:id="n28">
+        <link targets="r48"/>
+    </node>
+    <a xml:id="a-33114" label="NounChunk" ref="n28" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n27"/>
+            <f name="graf:edge" value="penn-n82 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2683"/>
+        </fs>
+    </a>
+    <a xml:id="a-33115" label="PRN" ref="n28" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1279"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n29">
+        <link targets="r50"/>
+    </node>
+    <a xml:id="a-33116" label="NounChunk" ref="n29" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n28"/>
+            <f name="graf:edge" value="penn-n86 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2685"/>
+        </fs>
+    </a>
+    <node xml:id="n3">
+        <link targets="r5"/>
+    </node>
+    <a xml:id="a-33068" label="NounChunk" ref="n3" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n2"/>
+            <f name="graf:edge" value="penn-n6 penn-n5 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2646"/>
+        </fs>
+    </a>
+    <node xml:id="n30">
+        <link targets="r51"/>
+    </node>
+    <a xml:id="a-33117" label="NounChunk" ref="n30" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n29"/>
+            <f name="graf:edge" value="penn-n89 penn-n88 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2686"/>
+        </fs>
+    </a>
+    <node xml:id="n31">
+        <link targets="r53"/>
+    </node>
+    <a xml:id="a-33118" label="Date" ref="n31" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e10"/>
+        </fs>
+    </a>
+    <a xml:id="a-33119" label="NounChunk" ref="n31" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n30"/>
+            <f name="graf:edge" value="penn-n91 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2687"/>
+        </fs>
+    </a>
+    <node xml:id="n32">
+        <link targets="r54"/>
+    </node>
+    <a xml:id="a-33120" label="NounChunk" ref="n32" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n31"/>
+            <f name="graf:edge" value="penn-n93 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33121" label="Date" ref="n32" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e11"/>
+        </fs>
+    </a>
+    <node xml:id="n33">
+        <link targets="r57"/>
+    </node>
+    <a xml:id="a-33122" label="PRN" ref="n33" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1280"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33123" label="NounChunk" ref="n33" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n32"/>
+            <f name="graf:edge" value="penn-n96 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2690"/>
+        </fs>
+    </a>
+    <node xml:id="n34">
+        <link targets="r59"/>
+    </node>
+    <a xml:id="a-33124" label="PRN" ref="n34" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1281"/>
+            <f name="matches" value="[2642]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33125" label="NounChunk" ref="n34" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n33"/>
+            <f name="graf:edge" value="penn-n99 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2692"/>
+        </fs>
+    </a>
+    <node xml:id="n35">
+        <link targets="r60"/>
+    </node>
+    <a xml:id="a-33126" label="NounChunk" ref="n35" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n34"/>
+            <f name="graf:edge" value="penn-n101 penn-n100 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2693"/>
+        </fs>
+    </a>
+    <node xml:id="n36">
+        <link targets="r62"/>
+    </node>
+    <a xml:id="a-33127" label="PRN" ref="n36" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1282"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33128" label="NounChunk" ref="n36" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n35"/>
+            <f name="graf:edge" value="penn-n104 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2694"/>
+        </fs>
+    </a>
+    <node xml:id="n37">
+        <link targets="r63"/>
+    </node>
+    <a xml:id="a-33129" label="NounChunk" ref="n37" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n36"/>
+            <f name="graf:edge" value="penn-n107 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2696"/>
+        </fs>
+    </a>
+    <node xml:id="n38">
+        <link targets="r64"/>
+    </node>
+    <a xml:id="a-33130" label="NounChunk" ref="n38" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n37"/>
+            <f name="graf:edge" value="penn-n112 penn-n111 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2697"/>
+        </fs>
+    </a>
+    <node xml:id="n39">
+        <link targets="r65"/>
+    </node>
+    <a xml:id="a-33131" label="NounChunk" ref="n39" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n38"/>
+            <f name="graf:edge" value="penn-n115 penn-n114 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2698"/>
+        </fs>
+    </a>
+    <node xml:id="n4">
+        <link targets="r7"/>
+    </node>
+    <a xml:id="a-33069" label="Date" ref="n4" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e1"/>
+        </fs>
+    </a>
+    <a xml:id="a-33070" label="NounChunk" ref="n4" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n3"/>
+            <f name="graf:edge" value="penn-n8 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2647"/>
+        </fs>
+    </a>
+    <node xml:id="n40">
+        <link targets="r66"/>
+    </node>
+    <a xml:id="a-33132" label="NounChunk" ref="n40" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n39"/>
+            <f name="graf:edge" value="penn-n117 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2699"/>
+        </fs>
+    </a>
+    <a xml:id="a-33133" label="Location" ref="n40" as="anc">
+        <fs>
+            <f name="id" value="58"/>
+            <f name="type" value="city"/>
+            <f name="graf:id" value="ne-n4"/>
+            <f name="graf:edge" value="penn-n117 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n41">
+        <link targets="r67"/>
+    </node>
+    <a xml:id="a-33134" label="Organization" ref="n41" as="anc">
+        <fs>
+            <f name="id" value="60"/>
+            <f name="type" value="company"/>
+            <f name="graf:id" value="ne-n5"/>
+            <f name="graf:edge" value="penn-n120 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33135" label="NounChunk" ref="n41" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n120 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2702"/>
+            <f name="graf:id" value="nc-n40"/>
+        </fs>
+    </a>
+    <node xml:id="n42">
+        <link targets="r68"/>
+    </node>
+    <a xml:id="a-33136" label="NounChunk" ref="n42" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n41"/>
+            <f name="graf:edge" value="penn-n122 penn-n121 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2703"/>
+        </fs>
+    </a>
+    <node xml:id="n43">
+        <link targets="r69"/>
+    </node>
+    <a xml:id="a-33137" label="NounChunk" ref="n43" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n42"/>
+            <f name="graf:edge" value="penn-n126 penn-n125 penn-n124 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2704"/>
+        </fs>
+    </a>
+    <a xml:id="a-33138" label="Money" ref="n43" as="anc">
+        <fs>
+            <f name="id" value="e12"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n44">
+        <link targets="r72"/>
+    </node>
+    <a xml:id="a-33139" label="PRN" ref="n44" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="gender" value="either"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="type" value="anaphoric"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1283"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33140" label="NounChunk" ref="n44" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n43"/>
+            <f name="graf:edge" value="penn-n128 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2705"/>
+        </fs>
+    </a>
+    <node xml:id="n45">
+        <link targets="r73"/>
+    </node>
+    <a xml:id="a-33141" label="NounChunk" ref="n45" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n44"/>
+            <f name="graf:edge" value="penn-n133 penn-n132 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2707"/>
+        </fs>
+    </a>
+    <node xml:id="n46">
+        <link targets="r75"/>
+    </node>
+    <a xml:id="a-33142" label="Date" ref="n46" as="anc">
+        <fs>
+            <f name="id" value="e13"/>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e13, e25, e27, e29]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33143" label="NounChunk" ref="n46" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n45"/>
+            <f name="graf:edge" value="penn-n134 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2708"/>
+        </fs>
+    </a>
+    <node xml:id="n47">
+        <link targets="r76"/>
+    </node>
+    <a xml:id="a-33144" label="NounChunk" ref="n47" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n46"/>
+            <f name="graf:edge" value="penn-n139 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2710"/>
+        </fs>
+    </a>
+    <a xml:id="a-33145" label="PRN" ref="n47" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1284"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="me"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n48">
+        <link targets="r78"/>
+    </node>
+    <a xml:id="a-33146" label="NounChunk" ref="n48" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n47"/>
+            <f name="graf:edge" value="penn-n141 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2711"/>
+        </fs>
+    </a>
+    <node xml:id="n49">
+        <link targets="r79"/>
+    </node>
+    <a xml:id="a-33147" label="NounChunk" ref="n49" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n48"/>
+            <f name="graf:edge" value="penn-n142 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2713"/>
+        </fs>
+    </a>
+    <a xml:id="a-33148" label="PRN" ref="n49" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1285"/>
+            <f name="matches" value="[2642]"/>
+        </fs>
+    </a>
+    <node xml:id="n5">
+        <link targets="r9"/>
+    </node>
+    <a xml:id="a-33071" label="Date" ref="n5" as="anc">
+        <fs>
+            <f name="id" value="e2"/>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e2, e5]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33072" label="NounChunk" ref="n5" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n4"/>
+            <f name="graf:edge" value="penn-n10 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n50">
+        <link targets="r81"/>
+    </node>
+    <a xml:id="a-33149" label="NounChunk" ref="n50" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n49"/>
+            <f name="graf:edge" value="penn-n148 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2714"/>
+        </fs>
+    </a>
+    <node xml:id="n51">
+        <link targets="r83"/>
+    </node>
+    <a xml:id="a-33150" label="PRN" ref="n51" as="anc">
+        <fs>
+            <f name="gender" value="either"/>
+            <f name="matches" value="[2717]"/>
+            <f name="id" value="e14"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n52">
+        <link targets="r84"/>
+    </node>
+    <a xml:id="a-33151" label="NounChunk" ref="n52" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n50"/>
+            <f name="graf:edge" value="penn-n154 penn-n153 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2715"/>
+        </fs>
+    </a>
+    <node xml:id="n53">
+        <link targets="r85"/>
+    </node>
+    <a xml:id="a-33152" label="NounChunk" ref="n53" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n51"/>
+            <f name="graf:edge" value="penn-n157 penn-n156 penn-n155 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2716"/>
+        </fs>
+    </a>
+    <node xml:id="n54">
+        <link targets="r87"/>
+    </node>
+    <a xml:id="a-33153" label="Date" ref="n54" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e15"/>
+        </fs>
+    </a>
+    <node xml:id="n55">
+        <link targets="r88"/>
+    </node>
+    <a xml:id="a-33154" label="NounChunk" ref="n55" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n159 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n52"/>
+            <f name="id" value="2718"/>
+        </fs>
+    </a>
+    <a xml:id="a-33155" label="Person" ref="n55" as="anc">
+        <fs>
+            <f name="id" value="2717"/>
+            <f name="gender" value="female"/>
+            <f name="graf:id" value="ne-n6"/>
+            <f name="graf:edge" value="penn-n159 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="matches" value="[2717, 2858]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n56">
+        <link targets="r89"/>
+    </node>
+    <a xml:id="a-33156" label="NounChunk" ref="n56" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n53"/>
+            <f name="graf:edge" value="penn-n160 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2719"/>
+        </fs>
+    </a>
+    <node xml:id="n57">
+        <link targets="r90"/>
+    </node>
+    <a xml:id="a-33157" label="Organization" ref="n57" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n166 penn-n165 penn-n164 "/>
+            <f name="graf:id" value="ne-n7"/>
+            <f name="id" value="79"/>
+            <f name="orgType" value="government"/>
+            <f name="matches" value="[79, 127, 165, 219]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n58">
+        <link targets="r91"/>
+    </node>
+    <a xml:id="a-33158" label="NounChunk" ref="n58" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n54"/>
+            <f name="graf:edge" value="penn-n164 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2721"/>
+        </fs>
+    </a>
+    <node xml:id="n59">
+        <link targets="r92"/>
+    </node>
+    <a xml:id="a-33159" label="Location" ref="n59" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e16"/>
+            <f name="locType" value="city"/>
+            <f name="graf:id" value="ne-n8"/>
+            <f name="graf:edge" value="penn-n166 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33160" label="NounChunk" ref="n59" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n55"/>
+            <f name="graf:edge" value="penn-n166 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2722"/>
+        </fs>
+    </a>
+    <node xml:id="n6">
+        <link targets="r11"/>
+    </node>
+    <a xml:id="a-33073" label="Date" ref="n6" as="anc">
+        <fs>
+            <f name="id" value="e3"/>
+            <f name="kind" value="date"/>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e3, e6]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33074" label="NounChunk" ref="n6" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n5"/>
+            <f name="graf:edge" value="penn-n12 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2649"/>
+        </fs>
+    </a>
+    <node xml:id="n60">
+        <link targets="r93"/>
+    </node>
+    <a xml:id="a-33161" label="NounChunk" ref="n60" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n56"/>
+            <f name="graf:edge" value="penn-n168 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2724"/>
+        </fs>
+    </a>
+    <a xml:id="a-33162" label="PRN" ref="n60" as="anc">
+        <fs>
+            <f name="gender" value="either"/>
+            <f name="id" value="e17"/>
+            <f name="matches" value="[2717]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n61">
+        <link targets="r95"/>
+    </node>
+    <a xml:id="a-33163" label="NounChunk" ref="n61" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n57"/>
+            <f name="graf:edge" value="penn-n174 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2725"/>
+        </fs>
+    </a>
+    <a xml:id="a-33164" label="PRN" ref="n61" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e17"/>
+            <f name="matches" value="[e18]"/>
+        </fs>
+    </a>
+    <node xml:id="n62">
+        <link targets="r97"/>
+    </node>
+    <a xml:id="a-33165" label="NounChunk" ref="n62" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n58"/>
+            <f name="graf:edge" value="penn-n178 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2726"/>
+        </fs>
+    </a>
+    <a xml:id="a-33166" label="PRN" ref="n62" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1286"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n63">
+        <link targets="r99"/>
+    </node>
+    <a xml:id="a-33167" label="NounChunk" ref="n63" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n59"/>
+            <f name="graf:edge" value="penn-n181 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2728"/>
+        </fs>
+    </a>
+    <node xml:id="n64">
+        <link targets="r100"/>
+    </node>
+    <a xml:id="a-33168" label="NounChunk" ref="n64" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n60"/>
+            <f name="graf:edge" value="penn-n184 penn-n183 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2729"/>
+        </fs>
+    </a>
+    <node xml:id="n65">
+        <link targets="r102"/>
+    </node>
+    <a xml:id="a-33169" label="PRN" ref="n65" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[e18]"/>
+            <f name="string" value="them"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="plural"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <a xml:id="a-33170" label="NounChunk" ref="n65" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n61"/>
+            <f name="graf:edge" value="penn-n187 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2731"/>
+        </fs>
+    </a>
+    <node xml:id="n66">
+        <link targets="r104"/>
+    </node>
+    <a xml:id="a-33171" label="PRN" ref="n66" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1289"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33172" label="NounChunk" ref="n66" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n62"/>
+            <f name="graf:edge" value="penn-n193 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2733"/>
+        </fs>
+    </a>
+    <node xml:id="n67">
+        <link targets="r105"/>
+    </node>
+    <a xml:id="a-33173" label="NounChunk" ref="n67" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n63"/>
+            <f name="graf:edge" value="penn-n199 penn-n198 penn-n197 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2734"/>
+        </fs>
+    </a>
+    <node xml:id="n68">
+        <link targets="r106"/>
+    </node>
+    <a xml:id="a-33174" label="NounChunk" ref="n68" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n64"/>
+            <f name="graf:edge" value="penn-n201 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2735"/>
+        </fs>
+    </a>
+    <a xml:id="a-33175" label="PRN" ref="n68" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1291"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <node xml:id="n69">
+        <link targets="r108"/>
+    </node>
+    <a xml:id="a-33176" label="NounChunk" ref="n69" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n65"/>
+            <f name="graf:edge" value="penn-n207 penn-n206 penn-n205 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2737"/>
+        </fs>
+    </a>
+    <node xml:id="n7">
+        <link targets="r12"/>
+    </node>
+    <a xml:id="a-33075" label="NounChunk" ref="n7" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n6"/>
+            <f name="graf:edge" value="penn-n14 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2651"/>
+        </fs>
+    </a>
+    <a xml:id="a-33076" label="PRN" ref="n7" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1268"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <node xml:id="n70">
+        <link targets="r109"/>
+    </node>
+    <a xml:id="a-33177" label="NounChunk" ref="n70" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n66"/>
+            <f name="graf:edge" value="penn-n209 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2738"/>
+        </fs>
+    </a>
+    <node xml:id="n71">
+        <link targets="r110"/>
+    </node>
+    <a xml:id="a-33178" label="NounChunk" ref="n71" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n67"/>
+            <f name="graf:edge" value="penn-n215 penn-n214 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2739"/>
+        </fs>
+    </a>
+    <node xml:id="n72">
+        <link targets="r111"/>
+    </node>
+    <a xml:id="a-33179" label="NounChunk" ref="n72" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n68"/>
+            <f name="graf:edge" value="penn-n216 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2741"/>
+        </fs>
+    </a>
+    <a xml:id="a-33180" label="PRN" ref="n72" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1292"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <node xml:id="n73">
+        <link targets="r113"/>
+    </node>
+    <a xml:id="a-33181" label="NounChunk" ref="n73" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n69"/>
+            <f name="graf:edge" value="penn-n218 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2742"/>
+        </fs>
+    </a>
+    <a xml:id="a-33182" label="PRN" ref="n73" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[79]"/>
+            <f name="string" value="them"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="plural"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <node xml:id="n74">
+        <link targets="r115"/>
+    </node>
+    <a xml:id="a-33183" label="NounChunk" ref="n74" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n70"/>
+            <f name="graf:edge" value="penn-n220 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2744"/>
+        </fs>
+    </a>
+    <node xml:id="n75">
+        <link targets="r117"/>
+    </node>
+    <a xml:id="a-33184" label="PRN" ref="n75" as="anc">
+        <fs>
+            <f name="gender" value="either"/>
+            <f name="matches" value="[79]"/>
+            <f name="id" value="e19"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <a xml:id="a-33185" label="NounChunk" ref="n75" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n71"/>
+            <f name="graf:edge" value="penn-n221 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2745"/>
+        </fs>
+    </a>
+    <node xml:id="n76">
+        <link targets="r119"/>
+    </node>
+    <a xml:id="a-33186" label="PRN" ref="n76" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="matches" value="[60]"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="us"/>
+            <f name="id" value="1297"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <a xml:id="a-33187" label="NounChunk" ref="n76" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n72"/>
+            <f name="graf:edge" value="penn-n223 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2746"/>
+        </fs>
+    </a>
+    <node xml:id="n77">
+        <link targets="r120"/>
+    </node>
+    <a xml:id="a-33188" label="NounChunk" ref="n77" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n73"/>
+            <f name="graf:edge" value="penn-n226 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2748"/>
+        </fs>
+    </a>
+    <a xml:id="a-33189" label="PRN" ref="n77" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1298"/>
+            <f name="matches" value="[2766]"/>
+        </fs>
+    </a>
+    <node xml:id="n78">
+        <link targets="r122"/>
+    </node>
+    <a xml:id="a-33190" label="NounChunk" ref="n78" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n74"/>
+            <f name="graf:edge" value="penn-n230 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2750"/>
+        </fs>
+    </a>
+    <a xml:id="a-33191" label="PRN" ref="n78" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="id" value="1299"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n79">
+        <link targets="r124"/>
+    </node>
+    <a xml:id="a-33192" label="NounChunk" ref="n79" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n75"/>
+            <f name="graf:edge" value="penn-n232 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2752"/>
+        </fs>
+    </a>
+    <a xml:id="a-33193" label="Date" ref="n79" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e20"/>
+        </fs>
+    </a>
+    <node xml:id="n8">
+        <link targets="r14"/>
+    </node>
+    <a xml:id="a-33077" label="Location" ref="n8" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n16 "/>
+            <f name="graf:id" value="ne-n1"/>
+            <f name="type" value="city"/>
+            <f name="id" value="11"/>
+            <f name="matches" value="[11, 31, 58, e16, e22, e26, e31]"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <a xml:id="a-33078" label="NounChunk" ref="n8" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="graf:edge" value="penn-n16 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n7"/>
+            <f name="id" value="2652"/>
+        </fs>
+    </a>
+    <node xml:id="n80">
+        <link targets="r126"/>
+    </node>
+    <a xml:id="a-33194" label="NounChunk" ref="n80" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n76"/>
+            <f name="graf:edge" value="penn-n234 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2753"/>
+        </fs>
+    </a>
+    <a xml:id="a-33195" label="Date" ref="n80" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="kind" value="date"/>
+            <f name="id" value="e21"/>
+        </fs>
+    </a>
+    <node xml:id="n81">
+        <link targets="r128"/>
+    </node>
+    <a xml:id="a-33196" label="NounChunk" ref="n81" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n77"/>
+            <f name="graf:edge" value="penn-n237 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2754"/>
+        </fs>
+    </a>
+    <node xml:id="n82">
+        <link targets="r129"/>
+    </node>
+    <a xml:id="a-33197" label="NounChunk" ref="n82" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n78"/>
+            <f name="graf:edge" value="penn-n239 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2755"/>
+        </fs>
+    </a>
+    <a xml:id="a-33198" label="PRN" ref="n82" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="1300"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="second"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="you"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[2717]"/>
+        </fs>
+    </a>
+    <node xml:id="n83">
+        <link targets="r131"/>
+    </node>
+    <a xml:id="a-33199" label="NounChunk" ref="n83" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n79"/>
+            <f name="graf:edge" value="penn-n243 penn-n242 penn-n241 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2757"/>
+        </fs>
+    </a>
+    <node xml:id="n84">
+        <link targets="r132"/>
+    </node>
+    <a xml:id="a-33200" label="NounChunk" ref="n84" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n80"/>
+            <f name="graf:edge" value="penn-n246 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2758"/>
+        </fs>
+    </a>
+    <a xml:id="a-33201" label="PRN" ref="n84" as="anc">
+        <fs>
+            <f name="id" value="1301"/>
+            <f name="matches" value="[]"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Thing"/>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="string" value="this"/>
+        </fs>
+    </a>
+    <node xml:id="n85">
+        <link targets="r134"/>
+    </node>
+    <a xml:id="a-33202" label="NounChunk" ref="n85" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n81"/>
+            <f name="graf:edge" value="penn-n253 penn-n252 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2760"/>
+        </fs>
+    </a>
+    <node xml:id="n86">
+        <link targets="r136"/>
+    </node>
+    <a xml:id="a-33203" label="PRN" ref="n86" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="plural"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="we"/>
+            <f name="id" value="1303"/>
+            <f name="matches" value="[60]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33204" label="NounChunk" ref="n86" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n82"/>
+            <f name="graf:edge" value="penn-n255 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2761"/>
+        </fs>
+    </a>
+    <node xml:id="n87">
+        <link targets="r137"/>
+    </node>
+    <a xml:id="a-33205" label="NounChunk" ref="n87" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n83"/>
+            <f name="graf:edge" value="penn-n259 penn-n258 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2763"/>
+        </fs>
+    </a>
+    <node xml:id="n88">
+        <link targets="r138"/>
+    </node>
+    <a xml:id="a-33206" label="NounChunk" ref="n88" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n84"/>
+            <f name="graf:edge" value="penn-n261 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2764"/>
+        </fs>
+    </a>
+    <node xml:id="n89">
+        <link targets="r139"/>
+    </node>
+    <a xml:id="a-33207" label="Person" ref="n89" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n263 "/>
+            <f name="graf:id" value="ne-n9"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2766"/>
+        </fs>
+    </a>
+    <a xml:id="a-33208" label="NounChunk" ref="n89" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n85"/>
+            <f name="graf:edge" value="penn-n263 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2765"/>
+        </fs>
+    </a>
+    <node xml:id="n9">
+        <link targets="r15"/>
+    </node>
+    <a xml:id="a-33079" label="NounChunk" ref="n9" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n8"/>
+            <f name="graf:edge" value="penn-n18 penn-n17 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2654"/>
+        </fs>
+    </a>
+    <node xml:id="n90">
+        <link targets="r140"/>
+    </node>
+    <a xml:id="a-33209" label="NounChunk" ref="n90" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n86"/>
+            <f name="graf:edge" value="penn-n264 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2767"/>
+        </fs>
+    </a>
+    <node xml:id="n91">
+        <link targets="r141"/>
+    </node>
+    <a xml:id="a-33210" label="Organization" ref="n91" as="anc">
+        <fs>
+            <f name="id" value="127"/>
+            <f name="type" value="government"/>
+            <f name="graf:id" value="ne-n10"/>
+            <f name="graf:edge" value="penn-n270 penn-n269 penn-n268 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="n92">
+        <link targets="r142"/>
+    </node>
+    <a xml:id="a-33211" label="NounChunk" ref="n92" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n87"/>
+            <f name="graf:edge" value="penn-n268 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2769"/>
+        </fs>
+    </a>
+    <node xml:id="n93">
+        <link targets="r143"/>
+    </node>
+    <a xml:id="a-33212" label="Location" ref="n93" as="anc">
+        <fs>
+            <f name="revised" value="ELC"/>
+            <f name="id" value="e22"/>
+            <f name="type" value="city"/>
+            <f name="graf:id" value="ne-n11"/>
+            <f name="graf:edge" value="penn-n270 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <a xml:id="a-33213" label="NounChunk" ref="n93" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n88"/>
+            <f name="graf:edge" value="penn-n270 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2770"/>
+        </fs>
+    </a>
+    <node xml:id="n94">
+        <link targets="r144"/>
+    </node>
+    <a xml:id="a-33214" label="NounChunk" ref="n94" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n89"/>
+            <f name="graf:edge" value="penn-n271 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2772"/>
+        </fs>
+    </a>
+    <a xml:id="a-33215" label="Person" ref="n94" as="anc">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:edge" value="penn-n271 "/>
+            <f name="graf:id" value="ne-n12"/>
+            <f name="gender" value="female"/>
+            <f name="id" value="2773"/>
+        </fs>
+    </a>
+    <node xml:id="n95">
+        <link targets="r146"/>
+    </node>
+    <a xml:id="a-33216" label="Markable" ref="n95" as="anc">
+        <fs>
+            <f name="id" value="e23"/>
+            <f name="matches" value="[2773]"/>
+            <f name="property" value="true"/>
+            <f name="revised" value="ELC"/>
+        </fs>
+    </a>
+    <node xml:id="n96">
+        <link targets="r147"/>
+    </node>
+    <a xml:id="a-33217" label="NounChunk" ref="n96" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n90"/>
+            <f name="graf:edge" value="penn-n274 penn-n273 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2774"/>
+        </fs>
+    </a>
+    <node xml:id="n97">
+        <link targets="r148"/>
+    </node>
+    <a xml:id="a-33218" label="NounChunk" ref="n97" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n91"/>
+            <f name="graf:edge" value="penn-n277 penn-n276 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2775"/>
+        </fs>
+    </a>
+    <node xml:id="n98">
+        <link targets="r150"/>
+    </node>
+    <a xml:id="a-33219" label="PRN" ref="n98" as="anc">
+        <fs>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Person"/>
+            <f name="person" value="first"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="either"/>
+            <f name="string" value="I"/>
+            <f name="id" value="1304"/>
+            <f name="matches" value="[]"/>
+        </fs>
+    </a>
+    <a xml:id="a-33220" label="NounChunk" ref="n98" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n92"/>
+            <f name="graf:edge" value="penn-n279 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2777"/>
+        </fs>
+    </a>
+    <node xml:id="n99">
+        <link targets="r151"/>
+    </node>
+    <a xml:id="a-33221" label="NounChunk" ref="n99" as="anc">
+        <fs>
+            <f name="graf:id" value="nc-n93"/>
+            <f name="graf:edge" value="penn-n284 penn-n283 penn-n282 "/>
+            <f name="graf:set" value="xces"/>
+            <f name="id" value="2778"/>
+        </fs>
+    </a>
+</graph>

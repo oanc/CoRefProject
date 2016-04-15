@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="Money" occurs="7"/>
+            <labelUsage label="Date" occurs="5"/>
+            <labelUsage label="Location" occurs="1"/>
+            <labelUsage label="Organization" occurs="7"/>
+            <labelUsage label="PRN" occurs="2"/>
+            <labelUsage label="Person" occurs="5"/>
+            <labelUsage label="NounChunk" occurs="54"/>
+        </labelsDecl>
+        <annotationSpaces>
+            <annotationSpace as.id="anc"/>
+        </annotationSpaces>
+    </graphHeader>
+    <region xml:id="r1" anchors="4 29"/>
+    <region xml:id="r4" anchors="31 43"/>
+    <region xml:id="r6" anchors="47 86"/>
+    <region xml:id="r8" anchors="47 60"/>
+    <region xml:id="r10" anchors="67 86"/>
+    <region xml:id="r12" anchors="98 107"/>
+    <region xml:id="r14" anchors="112 135"/>
+    <region xml:id="r16" anchors="139 160"/>
+    <region xml:id="r19" anchors="165 193"/>
+    <region xml:id="r21" anchors="165 168"/>
+    <region xml:id="r23" anchors="195 216"/>
+    <region xml:id="r26" anchors="221 236"/>
+    <region xml:id="r28" anchors="243 249"/>
+    <region xml:id="r30" anchors="250 257"/>
+    <region xml:id="r33" anchors="259 261"/>
+    <region xml:id="r36" anchors="271 286"/>
+    <region xml:id="r39" anchors="288 291"/>
+    <region xml:id="r41" anchors="308 316"/>
+    <region xml:id="r43" anchors="318 327"/>
+    <region xml:id="r45" anchors="332 347"/>
+    <region xml:id="r47" anchors="351 356"/>
+    <region xml:id="r50" anchors="361 375"/>
+    <region xml:id="r52" anchors="377 391"/>
+    <region xml:id="r55" anchors="402 412"/>
+    <region xml:id="r57" anchors="406 412"/>
+    <region xml:id="r59" anchors="416 424"/>
+    <region xml:id="r61" anchors="441 448"/>
+    <region xml:id="r64" anchors="456 480"/>
+    <region xml:id="r66" anchors="484 496"/>
+    <region xml:id="r69" anchors="501 509"/>
+    <region xml:id="r72" anchors="510 517"/>
+    <region xml:id="r74" anchors="526 536"/>
+    <region xml:id="r76" anchors="540 552"/>
+    <region xml:id="r79" anchors="557 562"/>
+    <region xml:id="r82" anchors="563 570"/>
+    <region xml:id="r84" anchors="572 586"/>
+    <region xml:id="r86" anchors="572 578"/>
+    <region xml:id="r88" anchors="591 609"/>
+    <region xml:id="r90" anchors="618 642"/>
+    <region xml:id="r92" anchors="644 649"/>
+    <region xml:id="r94" anchors="654 673"/>
+    <region xml:id="r96" anchors="677 689"/>
+    <region xml:id="r99" anchors="691 696"/>
+    <region xml:id="r102" anchors="706 711"/>
+    <region xml:id="r104" anchors="728 764"/>
+    <region xml:id="r106" anchors="742 785"/>
+    <region xml:id="r108" anchors="769 797"/>
+    <region xml:id="r110" anchors="799 804"/>
+    <region xml:id="r112" anchors="823 837"/>
+    <region xml:id="r114" anchors="823 831"/>
+    <region xml:id="r116" anchors="833 837"/>
+    <region xml:id="r118" anchors="842 850"/>
+    <region xml:id="r120" anchors="852 869"/>
+    <region xml:id="r122" anchors="882 893"/>
+    <region xml:id="r124" anchors="897 901"/>
+    <region xml:id="r126" anchors="906 931"/>
+    <region xml:id="r128" anchors="939 980"/>
+    <region xml:id="r130" anchors="939 962"/>
+    <region xml:id="r132" anchors="982 996"/>
+    <region xml:id="r134" anchors="982 989"/>
+    <region xml:id="r136" anchors="1004 1013"/>
+    <region xml:id="r139" anchors="1017 1023"/>
+    <region xml:id="r142" anchors="1030 1038"/>
+    <node xml:id="n0">
+        <link targets="r1"/>
+    </node>
+    <a xml:id="a-97987" label="NounChunk" ref="n0" as="anc">
+        <fs>
+            <f name="id" value="1016"/>
+        </fs>
+    </a>
+    <a xml:id="a-97988" label="Person" ref="n0" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="id" value="1015"/>
+        </fs>
+    </a>
+    <node xml:id="n1">
+        <link targets="r4"/>
+    </node>
+    <a xml:id="a-97989" label="NounChunk" ref="n1" as="anc">
+        <fs>
+            <f name="id" value="1024"/>
+            <f name="matches" value="[1015]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n10">
+        <link targets="r23"/>
+    </node>
+    <a xml:id="a-97999" label="Organization" ref="n10" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1066"/>
+        </fs>
+    </a>
+    <a xml:id="a-98000" label="NounChunk" ref="n10" as="anc">
+        <fs>
+            <f name="id" value="1067"/>
+        </fs>
+    </a>
+    <node xml:id="n11">
+        <link targets="r26"/>
+    </node>
+    <a xml:id="a-98001" label="NounChunk" ref="n11" as="anc">
+        <fs>
+            <f name="id" value="1074"/>
+        </fs>
+    </a>
+    <node xml:id="n12">
+        <link targets="r28"/>
+    </node>
+    <a xml:id="a-98002" label="NounChunk" ref="n12" as="anc">
+        <fs>
+            <f name="id" value="1079"/>
+        </fs>
+    </a>
+    <node xml:id="n13">
+        <link targets="r30"/>
+    </node>
+    <a xml:id="a-98003" label="Date" ref="n13" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="1081"/>
+        </fs>
+    </a>
+    <a xml:id="a-98004" label="NounChunk" ref="n13" as="anc">
+        <fs>
+            <f name="id" value="1082"/>
+        </fs>
+    </a>
+    <node xml:id="n14">
+        <link targets="r33"/>
+    </node>
+    <a xml:id="a-98005" label="Person" ref="n14" as="anc">
+        <fs>
+            <f name="ENTITY_MENTION_TYPE" value="PRONOUN"/>
+            <f name="antecedent_offset" value="4"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="id" value="1087"/>
+        </fs>
+    </a>
+    <a xml:id="a-98006" label="NounChunk" ref="n14" as="anc">
+        <fs>
+            <f name="id" value="1089"/>
+        </fs>
+    </a>
+    <node xml:id="n15">
+        <link targets="r36"/>
+    </node>
+    <a xml:id="a-98007" label="NounChunk" ref="n15" as="anc">
+        <fs>
+            <f name="id" value="1094"/>
+        </fs>
+    </a>
+    <a xml:id="a-98008" label="Person" ref="n15" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="id" value="1093"/>
+            <f name="matches" value="[1093, 1140]"/>
+        </fs>
+    </a>
+    <node xml:id="n16">
+        <link targets="r39"/>
+    </node>
+    <a xml:id="a-98009" label="NounChunk" ref="n16" as="anc">
+        <fs>
+            <f name="id" value="1103"/>
+        </fs>
+    </a>
+    <node xml:id="n17">
+        <link targets="r41"/>
+    </node>
+    <a xml:id="a-98010" label="NounChunk" ref="n17" as="anc">
+        <fs>
+            <f name="id" value="1110"/>
+            <f name="matches" value="[1093]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n18">
+        <link targets="r43"/>
+    </node>
+    <a xml:id="a-98011" label="NounChunk" ref="n18" as="anc">
+        <fs>
+            <f name="id" value="1113"/>
+            <f name="matches" value="[1093]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n19">
+        <link targets="r45"/>
+    </node>
+    <a xml:id="a-98012" label="NounChunk" ref="n19" as="anc">
+        <fs>
+            <f name="id" value="1115"/>
+            <f name="matches" value="[1093]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n2">
+        <link targets="r6"/>
+    </node>
+    <a xml:id="a-97990" label="NounChunk" ref="n2" as="anc">
+        <fs>
+            <f name="id" value="1028"/>
+        </fs>
+    </a>
+    <node xml:id="n20">
+        <link targets="r47"/>
+    </node>
+    <a xml:id="a-98013" label="NounChunk" ref="n20" as="anc">
+        <fs>
+            <f name="id" value="1120"/>
+        </fs>
+    </a>
+    <a xml:id="a-98014" label="Date" ref="n20" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="1121"/>
+        </fs>
+    </a>
+    <node xml:id="n21">
+        <link targets="r50"/>
+    </node>
+    <a xml:id="a-98015" label="NounChunk" ref="n21" as="anc">
+        <fs>
+            <f name="id" value="1123"/>
+        </fs>
+    </a>
+    <node xml:id="n22">
+        <link targets="r52"/>
+    </node>
+    <a xml:id="a-98016" label="Person" ref="n22" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="id" value="1129"/>
+        </fs>
+    </a>
+    <a xml:id="a-98017" label="NounChunk" ref="n22" as="anc">
+        <fs>
+            <f name="id" value="1128"/>
+        </fs>
+    </a>
+    <node xml:id="n23">
+        <link targets="r55"/>
+    </node>
+    <a xml:id="a-98018" label="NounChunk" ref="n23" as="anc">
+        <fs>
+            <f name="id" value="1136"/>
+        </fs>
+    </a>
+    <node xml:id="n24">
+        <link targets="r57"/>
+    </node>
+    <a xml:id="a-98019" label="Person" ref="n24" as="anc">
+        <fs>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="gender" value="male"/>
+            <f name="id" value="1140"/>
+            <f name="matches" value="[1093, 1140]"/>
+        </fs>
+    </a>
+    <node xml:id="n25">
+        <link targets="r59"/>
+    </node>
+    <a xml:id="a-98020" label="NounChunk" ref="n25" as="anc">
+        <fs>
+            <f name="id" value="1142"/>
+            <f name="matches" value="[1129]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n26">
+        <link targets="r61"/>
+    </node>
+    <a xml:id="a-98021" label="NounChunk" ref="n26" as="anc">
+        <fs>
+            <f name="id" value="1149"/>
+        </fs>
+    </a>
+    <a xml:id="a-98022" label="Organization" ref="n26" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1151"/>
+            <f name="matches" value="[1050, 1151, 1325]"/>
+        </fs>
+    </a>
+    <node xml:id="n27">
+        <link targets="r64"/>
+    </node>
+    <a xml:id="a-98023" label="NounChunk" ref="n27" as="anc">
+        <fs>
+            <f name="id" value="1154"/>
+        </fs>
+    </a>
+    <node xml:id="n28">
+        <link targets="r66"/>
+    </node>
+    <a xml:id="a-98024" label="Money" ref="n28" as="anc"/>
+    <a xml:id="a-98025" label="NounChunk" ref="n28" as="anc">
+        <fs>
+            <f name="property" value="true"/>
+            <f name="matches" value="[1154]"/>
+            <f name="id" value="1162"/>
+        </fs>
+    </a>
+    <node xml:id="n29">
+        <link targets="r69"/>
+    </node>
+    <a xml:id="a-98026" label="NounChunk" ref="n29" as="anc">
+        <fs>
+            <f name="property" value="true"/>
+            <f name="matches" value="[1162]"/>
+            <f name="id" value="1171"/>
+        </fs>
+    </a>
+    <a xml:id="a-98027" label="Money" ref="n29" as="anc"/>
+    <node xml:id="n3">
+        <link targets="r8"/>
+    </node>
+    <a xml:id="a-97991" label="Location" ref="n3" as="anc">
+        <fs>
+            <f name="locType" value="city"/>
+            <f name="id" value="1029"/>
+        </fs>
+    </a>
+    <node xml:id="n30">
+        <link targets="r72"/>
+    </node>
+    <a xml:id="a-98028" label="NounChunk" ref="n30" as="anc">
+        <fs>
+            <f name="id" value="1175"/>
+        </fs>
+    </a>
+    <node xml:id="n31">
+        <link targets="r74"/>
+    </node>
+    <a xml:id="a-98029" label="NounChunk" ref="n31" as="anc">
+        <fs>
+            <f name="id" value="1180"/>
+        </fs>
+    </a>
+    <node xml:id="n32">
+        <link targets="r76"/>
+    </node>
+    <a xml:id="a-98030" label="Money" ref="n32" as="anc"/>
+    <a xml:id="a-98031" label="NounChunk" ref="n32" as="anc">
+        <fs>
+            <f name="property" value="true"/>
+            <f name="matches" value="[1180]"/>
+            <f name="id" value="1185"/>
+        </fs>
+    </a>
+    <node xml:id="n33">
+        <link targets="r79"/>
+    </node>
+    <a xml:id="a-98032" label="NounChunk" ref="n33" as="anc">
+        <fs>
+            <f name="property" value="true"/>
+            <f name="matches" value="[1185]"/>
+            <f name="id" value="1193"/>
+        </fs>
+    </a>
+    <a xml:id="a-98033" label="Money" ref="n33" as="anc"/>
+    <node xml:id="n34">
+        <link targets="r82"/>
+    </node>
+    <a xml:id="a-98034" label="NounChunk" ref="n34" as="anc">
+        <fs>
+            <f name="id" value="1199"/>
+        </fs>
+    </a>
+    <node xml:id="n35">
+        <link targets="r84"/>
+    </node>
+    <a xml:id="a-98035" label="Date" ref="n35" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="1203"/>
+        </fs>
+    </a>
+    <node xml:id="n36">
+        <link targets="r86"/>
+    </node>
+    <a xml:id="a-98036" label="NounChunk" ref="n36" as="anc">
+        <fs>
+            <f name="id" value="1204"/>
+        </fs>
+    </a>
+    <node xml:id="n37">
+        <link targets="r88"/>
+    </node>
+    <a xml:id="a-98037" label="NounChunk" ref="n37" as="anc">
+        <fs>
+            <f name="id" value="1211"/>
+        </fs>
+    </a>
+    <node xml:id="n38">
+        <link targets="r90"/>
+    </node>
+    <a xml:id="a-98038" label="NounChunk" ref="n38" as="anc">
+        <fs>
+            <f name="id" value="1217"/>
+        </fs>
+    </a>
+    <node xml:id="n39">
+        <link targets="r92"/>
+    </node>
+    <a xml:id="a-98039" label="NounChunk" ref="n39" as="anc">
+        <fs>
+            <f name="id" value="1228"/>
+        </fs>
+    </a>
+    <node xml:id="n4">
+        <link targets="r10"/>
+    </node>
+    <a xml:id="a-97992" label="Organization" ref="n4" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1034"/>
+        </fs>
+    </a>
+    <node xml:id="n40">
+        <link targets="r94"/>
+    </node>
+    <a xml:id="a-98040" label="NounChunk" ref="n40" as="anc">
+        <fs>
+            <f name="id" value="1231"/>
+        </fs>
+    </a>
+    <node xml:id="n41">
+        <link targets="r96"/>
+    </node>
+    <a xml:id="a-98041" label="NounChunk" ref="n41" as="anc">
+        <fs>
+            <f name="property" value="true"/>
+            <f name="matches" value="[1231]"/>
+            <f name="id" value="1236"/>
+        </fs>
+    </a>
+    <a xml:id="a-98042" label="Money" ref="n41" as="anc"/>
+    <node xml:id="n42">
+        <link targets="r99"/>
+    </node>
+    <a xml:id="a-98043" label="PRN" ref="n42" as="anc">
+        <fs>
+            <f name="id" value="791"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Thing"/>
+            <f name="number" value="plural"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[1217]"/>
+        </fs>
+    </a>
+    <a xml:id="a-98044" label="NounChunk" ref="n42" as="anc">
+        <fs>
+            <f name="id" value="1249"/>
+        </fs>
+    </a>
+    <node xml:id="n43">
+        <link targets="r102"/>
+    </node>
+    <a xml:id="a-98045" label="NounChunk" ref="n43" as="anc">
+        <fs>
+            <f name="id" value="1253"/>
+        </fs>
+    </a>
+    <node xml:id="n44">
+        <link targets="r104"/>
+    </node>
+    <a xml:id="a-98046" label="NounChunk" ref="n44" as="anc">
+        <fs>
+            <f name="id" value="1257"/>
+        </fs>
+    </a>
+    <node xml:id="n45">
+        <link targets="r106"/>
+    </node>
+    <a xml:id="a-98047" label="Organization" ref="n45" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1260"/>
+        </fs>
+    </a>
+    <node xml:id="n46">
+        <link targets="r108"/>
+    </node>
+    <a xml:id="a-98048" label="NounChunk" ref="n46" as="anc">
+        <fs>
+            <f name="id" value="1265"/>
+        </fs>
+    </a>
+    <node xml:id="n47">
+        <link targets="r110"/>
+    </node>
+    <a xml:id="a-98049" label="NounChunk" ref="n47" as="anc">
+        <fs>
+            <f name="id" value="1273"/>
+        </fs>
+    </a>
+    <node xml:id="n48">
+        <link targets="r112"/>
+    </node>
+    <a xml:id="a-98050" label="Date" ref="n48" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="1279"/>
+        </fs>
+    </a>
+    <node xml:id="n49">
+        <link targets="r114"/>
+    </node>
+    <a xml:id="a-98051" label="NounChunk" ref="n49" as="anc">
+        <fs>
+            <f name="id" value="1280"/>
+        </fs>
+    </a>
+    <node xml:id="n5">
+        <link targets="r12"/>
+    </node>
+    <a xml:id="a-97993" label="NounChunk" ref="n5" as="anc">
+        <fs>
+            <f name="id" value="1042"/>
+            <f name="matches" value="[1015]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n50">
+        <link targets="r116"/>
+    </node>
+    <a xml:id="a-98052" label="NounChunk" ref="n50" as="anc">
+        <fs>
+            <f name="id" value="1286"/>
+        </fs>
+    </a>
+    <node xml:id="n51">
+        <link targets="r118"/>
+    </node>
+    <a xml:id="a-98053" label="NounChunk" ref="n51" as="anc">
+        <fs>
+            <f name="id" value="1291"/>
+        </fs>
+    </a>
+    <node xml:id="n52">
+        <link targets="r120"/>
+    </node>
+    <a xml:id="a-98054" label="NounChunk" ref="n52" as="anc">
+        <fs>
+            <f name="id" value="1293"/>
+        </fs>
+    </a>
+    <node xml:id="n53">
+        <link targets="r122"/>
+    </node>
+    <a xml:id="a-98055" label="NounChunk" ref="n53" as="anc">
+        <fs>
+            <f name="id" value="1300"/>
+        </fs>
+    </a>
+    <node xml:id="n54">
+        <link targets="r124"/>
+    </node>
+    <a xml:id="a-98056" label="NounChunk" ref="n54" as="anc">
+        <fs>
+            <f name="id" value="1304"/>
+        </fs>
+    </a>
+    <node xml:id="n55">
+        <link targets="r126"/>
+    </node>
+    <a xml:id="a-98057" label="NounChunk" ref="n55" as="anc">
+        <fs>
+            <f name="id" value="1307"/>
+        </fs>
+    </a>
+    <node xml:id="n56">
+        <link targets="r128"/>
+    </node>
+    <a xml:id="a-98058" label="NounChunk" ref="n56" as="anc">
+        <fs>
+            <f name="id" value="1316"/>
+        </fs>
+    </a>
+    <node xml:id="n57">
+        <link targets="r130"/>
+    </node>
+    <a xml:id="a-98059" label="Organization" ref="n57" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1317"/>
+        </fs>
+    </a>
+    <node xml:id="n58">
+        <link targets="r132"/>
+    </node>
+    <a xml:id="a-98060" label="NounChunk" ref="n58" as="anc">
+        <fs>
+            <f name="id" value="1324"/>
+        </fs>
+    </a>
+    <node xml:id="n59">
+        <link targets="r134"/>
+    </node>
+    <a xml:id="a-98061" label="Organization" ref="n59" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1325"/>
+            <f name="matches" value="[1050, 1151, 1325]"/>
+        </fs>
+    </a>
+    <node xml:id="n6">
+        <link targets="r14"/>
+    </node>
+    <a xml:id="a-97994" label="NounChunk" ref="n6" as="anc">
+        <fs>
+            <f name="id" value="1045"/>
+            <f name="matches" value="[1015]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n60">
+        <link targets="r136"/>
+    </node>
+    <a xml:id="a-98062" label="NounChunk" ref="n60" as="anc">
+        <fs>
+            <f name="id" value="1332"/>
+        </fs>
+    </a>
+    <a xml:id="a-98063" label="Date" ref="n60" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="1331"/>
+        </fs>
+    </a>
+    <node xml:id="n61">
+        <link targets="r139"/>
+    </node>
+    <a xml:id="a-98064" label="NounChunk" ref="n61" as="anc">
+        <fs>
+            <f name="id" value="1335"/>
+        </fs>
+    </a>
+    <a xml:id="a-98065" label="Money" ref="n61" as="anc"/>
+    <node xml:id="n62">
+        <link targets="r142"/>
+    </node>
+    <a xml:id="a-98066" label="NounChunk" ref="n62" as="anc">
+        <fs>
+            <f name="id" value="1343"/>
+        </fs>
+    </a>
+    <a xml:id="a-98067" label="Money" ref="n62" as="anc"/>
+    <node xml:id="n7">
+        <link targets="r16"/>
+    </node>
+    <a xml:id="a-97995" label="Organization" ref="n7" as="anc">
+        <fs>
+            <f name="orgType" value="company"/>
+            <f name="id" value="1050"/>
+            <f name="matches" value="[1050, 1151, 1325]"/>
+        </fs>
+    </a>
+    <a xml:id="a-97996" label="NounChunk" ref="n7" as="anc">
+        <fs>
+            <f name="id" value="1051"/>
+            <f name="matches" value="1058"/>
+        </fs>
+    </a>
+    <node xml:id="n8">
+        <link targets="r19"/>
+    </node>
+    <a xml:id="a-97997" label="NounChunk" ref="n8" as="anc">
+        <fs>
+            <f name="id" value="1057"/>
+            <f name="matches" value="[1066]"/>
+            <f name="property" value="true"/>
+        </fs>
+    </a>
+    <node xml:id="n9">
+        <link targets="r21"/>
+    </node>
+    <a xml:id="a-97998" label="PRN" ref="n9" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="possessive"/>
+            <f name="cls" value="Thing"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="matches" value="[1050]"/>
+        </fs>
+    </a>
+</graph>

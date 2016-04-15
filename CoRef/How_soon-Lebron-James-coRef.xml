@@ -1,0 +1,2768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="Date" occurs="5"/>
+            <labelUsage label="Location" occurs="3"/>
+            <labelUsage label="Organization" occurs="8"/>
+            <labelUsage label="PRN" occurs="53"/>
+            <labelUsage label="Person" occurs="25"/>
+            <labelUsage label="NounChunk" occurs="181"/>
+        </labelsDecl>
+        <annotationSpaces>
+            <annotationSpace as.id="anc"/>
+        </annotationSpaces>
+    </graphHeader>
+    <region xml:id="r1" anchors="17 20"/>
+    <region xml:id="r3" anchors="22 34"/>
+    <region xml:id="r6" anchors="41 53"/>
+    <region xml:id="r8" anchors="41 44"/>
+    <region xml:id="r10" anchors="55 70"/>
+    <region xml:id="r12" anchors="59 64"/>
+    <region xml:id="r14" anchors="71 81"/>
+    <region xml:id="r17" anchors="85 89"/>
+    <region xml:id="r20" anchors="91 103"/>
+    <region xml:id="r23" anchors="107 146"/>
+    <region xml:id="r25" anchors="148 150"/>
+    <region xml:id="r28" anchors="158 182"/>
+    <region xml:id="r30" anchors="183 186"/>
+    <region xml:id="r32" anchors="210 219"/>
+    <region xml:id="r34" anchors="227 257"/>
+    <region xml:id="r36" anchors="264 277"/>
+    <region xml:id="r38" anchors="264 267"/>
+    <region xml:id="r40" anchors="279 281"/>
+    <region xml:id="r43" anchors="309 316"/>
+    <region xml:id="r46" anchors="322 328"/>
+    <region xml:id="r48" anchors="329 332"/>
+    <region xml:id="r50" anchors="344 352"/>
+    <region xml:id="r52" anchors="358 359"/>
+    <region xml:id="r55" anchors="384 386"/>
+    <region xml:id="r58" anchors="394 399"/>
+    <region xml:id="r60" anchors="403 416"/>
+    <region xml:id="r62" anchors="420 436"/>
+    <region xml:id="r64" anchors="438 444"/>
+    <region xml:id="r67" anchors="457 475"/>
+    <region xml:id="r69" anchors="477 479"/>
+    <region xml:id="r72" anchors="499 510"/>
+    <region xml:id="r74" anchors="514 522"/>
+    <region xml:id="r76" anchors="542 565"/>
+    <region xml:id="r78" anchors="546 565"/>
+    <region xml:id="r80" anchors="546 555"/>
+    <region xml:id="r82" anchors="566 568"/>
+    <region xml:id="r85" anchors="575 601"/>
+    <region xml:id="r87" anchors="588 591"/>
+    <region xml:id="r89" anchors="604 606"/>
+    <region xml:id="r92" anchors="609 621"/>
+    <region xml:id="r94" anchors="630 637"/>
+    <region xml:id="r97" anchors="638 640"/>
+    <region xml:id="r100" anchors="646 658"/>
+    <region xml:id="r102" anchors="646 649"/>
+    <region xml:id="r104" anchors="665 675"/>
+    <region xml:id="r106" anchors="676 678"/>
+    <region xml:id="r109" anchors="702 722"/>
+    <region xml:id="r111" anchors="729 748"/>
+    <region xml:id="r113" anchors="752 756"/>
+    <region xml:id="r116" anchors="758 775"/>
+    <region xml:id="r119" anchors="776 782"/>
+    <region xml:id="r122" anchors="793 800"/>
+    <region xml:id="r125" anchors="820 839"/>
+    <region xml:id="r127" anchors="841 853"/>
+    <region xml:id="r130" anchors="854 856"/>
+    <region xml:id="r133" anchors="869 881"/>
+    <region xml:id="r136" anchors="889 895"/>
+    <region xml:id="r138" anchors="896 912"/>
+    <region xml:id="r140" anchors="917 929"/>
+    <region xml:id="r142" anchors="955 956"/>
+    <region xml:id="r145" anchors="981 987"/>
+    <region xml:id="r148" anchors="1003 1010"/>
+    <region xml:id="r151" anchors="1016 1024"/>
+    <region xml:id="r153" anchors="1060 1069"/>
+    <region xml:id="r155" anchors="1088 1104"/>
+    <region xml:id="r158" anchors="1118 1119"/>
+    <region xml:id="r161" anchors="1130 1141"/>
+    <region xml:id="r163" anchors="1146 1153"/>
+    <region xml:id="r165" anchors="1158 1161"/>
+    <region xml:id="r167" anchors="1168 1172"/>
+    <region xml:id="r170" anchors="1184 1224"/>
+    <region xml:id="r172" anchors="1225 1228"/>
+    <region xml:id="r174" anchors="1250 1270"/>
+    <region xml:id="r176" anchors="1276 1280"/>
+    <region xml:id="r178" anchors="1282 1286"/>
+    <region xml:id="r181" anchors="1289 1292"/>
+    <region xml:id="r183" anchors="1296 1307"/>
+    <region xml:id="r185" anchors="1309 1313"/>
+    <region xml:id="r188" anchors="1321 1331"/>
+    <region xml:id="r190" anchors="1335 1342"/>
+    <region xml:id="r193" anchors="1345 1351"/>
+    <region xml:id="r196" anchors="1365 1374"/>
+    <region xml:id="r198" anchors="1378 1390"/>
+    <region xml:id="r200" anchors="1396 1400"/>
+    <region xml:id="r202" anchors="1402 1403"/>
+    <region xml:id="r205" anchors="1410 1435"/>
+    <region xml:id="r207" anchors="1445 1459"/>
+    <region xml:id="r210" anchors="1461 1490"/>
+    <region xml:id="r212" anchors="1502 1510"/>
+    <region xml:id="r214" anchors="1514 1522"/>
+    <region xml:id="r216" anchors="1526 1529"/>
+    <region xml:id="r218" anchors="1535 1551"/>
+    <region xml:id="r220" anchors="1568 1574"/>
+    <region xml:id="r222" anchors="1586 1602"/>
+    <region xml:id="r224" anchors="1586 1589"/>
+    <region xml:id="r226" anchors="1606 1621"/>
+    <region xml:id="r228" anchors="1623 1629"/>
+    <region xml:id="r231" anchors="1646 1659"/>
+    <region xml:id="r233" anchors="1663 1670"/>
+    <region xml:id="r236" anchors="1676 1681"/>
+    <region xml:id="r239" anchors="1686 1695"/>
+    <region xml:id="r241" anchors="1708 1711"/>
+    <region xml:id="r244" anchors="1717 1720"/>
+    <region xml:id="r247" anchors="1725 1733"/>
+    <region xml:id="r250" anchors="1740 1754"/>
+    <region xml:id="r252" anchors="1740 1744"/>
+    <region xml:id="r254" anchors="1762 1770"/>
+    <region xml:id="r256" anchors="1773 1778"/>
+    <region xml:id="r259" anchors="1789 1796"/>
+    <region xml:id="r262" anchors="1800 1822"/>
+    <region xml:id="r264" anchors="1824 1825"/>
+    <region xml:id="r266" anchors="1835 1842"/>
+    <region xml:id="r268" anchors="1876 1878"/>
+    <region xml:id="r271" anchors="1884 1885"/>
+    <region xml:id="r273" anchors="1899 1906"/>
+    <region xml:id="r275" anchors="1923 1947"/>
+    <region xml:id="r277" anchors="1948 1950"/>
+    <region xml:id="r279" anchors="1959 1966"/>
+    <region xml:id="r281" anchors="1982 1986"/>
+    <region xml:id="r283" anchors="1999 2001"/>
+    <region xml:id="r286" anchors="2014 2016"/>
+    <region xml:id="r289" anchors="2023 2024"/>
+    <region xml:id="r291" anchors="2026 2028"/>
+    <region xml:id="r294" anchors="2035 2042"/>
+    <region xml:id="r297" anchors="2046 2056"/>
+    <region xml:id="r299" anchors="2066 2068"/>
+    <region xml:id="r302" anchors="2076 2085"/>
+    <region xml:id="r305" anchors="2087 2103"/>
+    <region xml:id="r307" anchors="2109 2118"/>
+    <region xml:id="r310" anchors="2144 2147"/>
+    <region xml:id="r313" anchors="2165 2179"/>
+    <region xml:id="r316" anchors="2189 2191"/>
+    <region xml:id="r319" anchors="2193 2194"/>
+    <region xml:id="r322" anchors="2207 2229"/>
+    <region xml:id="r324" anchors="2242 2254"/>
+    <region xml:id="r326" anchors="2255 2261"/>
+    <region xml:id="r329" anchors="2276 2279"/>
+    <region xml:id="r332" anchors="2285 2289"/>
+    <region xml:id="r334" anchors="2301 2303"/>
+    <region xml:id="r337" anchors="2313 2326"/>
+    <region xml:id="r339" anchors="2332 2365"/>
+    <region xml:id="r341" anchors="2371 2405"/>
+    <region xml:id="r343" anchors="2389 2396"/>
+    <region xml:id="r345" anchors="2426 2439"/>
+    <region xml:id="r347" anchors="2426 2429"/>
+    <region xml:id="r349" anchors="2447 2459"/>
+    <region xml:id="r351" anchors="2464 2466"/>
+    <region xml:id="r354" anchors="2471 2475"/>
+    <region xml:id="r356" anchors="2476 2486"/>
+    <region xml:id="r358" anchors="2497 2503"/>
+    <region xml:id="r361" anchors="2505 2507"/>
+    <region xml:id="r364" anchors="2513 2515"/>
+    <region xml:id="r367" anchors="2541 2543"/>
+    <region xml:id="r370" anchors="2557 2561"/>
+    <region xml:id="r372" anchors="2569 2580"/>
+    <region xml:id="r374" anchors="2590 2596"/>
+    <region xml:id="r377" anchors="2615 2639"/>
+    <region xml:id="r379" anchors="2651 2662"/>
+    <region xml:id="r381" anchors="2651 2654"/>
+    <region xml:id="r383" anchors="2666 2680"/>
+    <region xml:id="r385" anchors="2685 2686"/>
+    <region xml:id="r388" anchors="2703 2712"/>
+    <region xml:id="r390" anchors="2717 2720"/>
+    <region xml:id="r393" anchors="2722 2723"/>
+    <region xml:id="r396" anchors="2740 2743"/>
+    <region xml:id="r399" anchors="2750 2757"/>
+    <region xml:id="r401" anchors="2763 2776"/>
+    <region xml:id="r403" anchors="2785 2787"/>
+    <region xml:id="r406" anchors="2798 2810"/>
+    <region xml:id="r408" anchors="2798 2801"/>
+    <region xml:id="r410" anchors="2822 2824"/>
+    <region xml:id="r413" anchors="2838 2846"/>
+    <region xml:id="r415" anchors="2868 2870"/>
+    <region xml:id="r418" anchors="2898 2902"/>
+    <region xml:id="r420" anchors="2906 2914"/>
+    <region xml:id="r422" anchors="2921 2935"/>
+    <region xml:id="r424" anchors="2936 2940"/>
+    <region xml:id="r426" anchors="2960 2974"/>
+    <region xml:id="r428" anchors="2981 2985"/>
+    <region xml:id="r431" anchors="2990 3005"/>
+    <region xml:id="r433" anchors="3007 3013"/>
+    <region xml:id="r435" anchors="3016 3022"/>
+    <region xml:id="r438" anchors="3031 3045"/>
+    <region xml:id="r440" anchors="3035 3045"/>
+    <region xml:id="r442" anchors="3035 3041"/>
+    <region xml:id="r444" anchors="3050 3066"/>
+    <region xml:id="r446" anchors="3070 3075"/>
+    <region xml:id="r449" anchors="3091 3102"/>
+    <region xml:id="r452" anchors="3111 3119"/>
+    <region xml:id="r454" anchors="3123 3134"/>
+    <region xml:id="r457" anchors="3136 3144"/>
+    <region xml:id="r459" anchors="3153 3155"/>
+    <region xml:id="r462" anchors="3170 3181"/>
+    <region xml:id="r464" anchors="3184 3195"/>
+    <region xml:id="r467" anchors="3202 3225"/>
+    <region xml:id="r469" anchors="3202 3214"/>
+    <region xml:id="r471" anchors="3218 3225"/>
+    <node xml:id="n0">
+        <link targets="r1"/>
+    </node>
+    <a xml:id="a-145259" label="NounChunk" ref="n0" as="anc">
+        <fs>
+            <f name="id" value="6983"/>
+        </fs>
+    </a>
+    <node xml:id="n1">
+        <link targets="r3"/>
+    </node>
+    <a xml:id="a-145260" label="NounChunk" ref="n1" as="anc">
+        <fs>
+            <f name="id" value="699"/>
+        </fs>
+    </a>
+    <a xml:id="a-145261" label="Person" ref="n1" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="isFirst" value="true"/>
+            <f name="id" value="877"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n10">
+        <link targets="r25"/>
+    </node>
+    <a xml:id="a-145273" label="PRN" ref="n10" as="anc">
+        <fs>
+            <f name="matches" value="[881]"/>
+            <f name="string" value="He"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1017"/>
+        </fs>
+    </a>
+    <a xml:id="a-145274" label="NounChunk" ref="n10" as="anc">
+        <fs>
+            <f name="id" value="705"/>
+        </fs>
+    </a>
+    <node xml:id="n100">
+        <link targets="r239"/>
+    </node>
+    <a xml:id="a-145397" label="NounChunk" ref="n100" as="anc">
+        <fs>
+            <f name="id" value="789"/>
+        </fs>
+    </a>
+    <node xml:id="n101">
+        <link targets="r241"/>
+    </node>
+    <a xml:id="a-145398" label="NounChunk" ref="n101" as="anc">
+        <fs>
+            <f name="id" value="790"/>
+        </fs>
+    </a>
+    <a xml:id="a-145399" label="PRN" ref="n101" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="you"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="second"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1042"/>
+        </fs>
+    </a>
+    <node xml:id="n102">
+        <link targets="r244"/>
+    </node>
+    <a xml:id="a-145400" label="PRN" ref="n102" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="you"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="second"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1043"/>
+        </fs>
+    </a>
+    <a xml:id="a-145401" label="NounChunk" ref="n102" as="anc">
+        <fs>
+            <f name="id" value="791"/>
+        </fs>
+    </a>
+    <node xml:id="n103">
+        <link targets="r247"/>
+    </node>
+    <a xml:id="a-145402" label="PRN" ref="n103" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="yourself"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="second"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1044"/>
+        </fs>
+    </a>
+    <a xml:id="a-145403" label="NounChunk" ref="n103" as="anc">
+        <fs>
+            <f name="id" value="792"/>
+        </fs>
+    </a>
+    <node xml:id="n104">
+        <link targets="r250"/>
+    </node>
+    <a xml:id="a-145404" label="NounChunk" ref="n104" as="anc">
+        <fs>
+            <f name="id" value="793"/>
+        </fs>
+    </a>
+    <node xml:id="n105">
+        <link targets="r252"/>
+    </node>
+    <a xml:id="a-145405" label="PRN" ref="n105" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="your"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="second"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1045"/>
+        </fs>
+    </a>
+    <node xml:id="n106">
+        <link targets="r254"/>
+    </node>
+    <a xml:id="a-145406" label="NounChunk" ref="n106" as="anc">
+        <fs>
+            <f name="id" value="794"/>
+        </fs>
+    </a>
+    <node xml:id="n107">
+        <link targets="r256"/>
+    </node>
+    <a xml:id="a-145407" label="NounChunk" ref="n107" as="anc">
+        <fs>
+            <f name="id" value="795"/>
+        </fs>
+    </a>
+    <a xml:id="a-145408" label="Person" ref="n107" as="anc">
+        <fs>
+            <f name="corefText" value="himself"/>
+            <f name="corefId" value="1818"/>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="id" value="900"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n108">
+        <link targets="r259"/>
+    </node>
+    <a xml:id="a-145409" label="NounChunk" ref="n108" as="anc">
+        <fs>
+            <f name="id" value="796"/>
+        </fs>
+    </a>
+    <a xml:id="a-145410" label="PRN" ref="n108" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="himself"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1046"/>
+        </fs>
+    </a>
+    <node xml:id="n109">
+        <link targets="r262"/>
+    </node>
+    <a xml:id="a-145411" label="NounChunk" ref="n109" as="anc">
+        <fs>
+            <f name="id" value="797"/>
+        </fs>
+    </a>
+    <node xml:id="n11">
+        <link targets="r28"/>
+    </node>
+    <a xml:id="a-145275" label="NounChunk" ref="n11" as="anc">
+        <fs>
+            <f name="id" value="706"/>
+        </fs>
+    </a>
+    <node xml:id="n110">
+        <link targets="r264"/>
+    </node>
+    <a xml:id="a-145412" label="NounChunk" ref="n110" as="anc">
+        <fs>
+            <f name="id" value="798"/>
+        </fs>
+    </a>
+    <node xml:id="n111">
+        <link targets="r266"/>
+    </node>
+    <a xml:id="a-145413" label="NounChunk" ref="n111" as="anc">
+        <fs>
+            <f name="id" value="799"/>
+        </fs>
+    </a>
+    <node xml:id="n112">
+        <link targets="r268"/>
+    </node>
+    <a xml:id="a-145414" label="NounChunk" ref="n112" as="anc">
+        <fs>
+            <f name="id" value="800"/>
+        </fs>
+    </a>
+    <a xml:id="a-145415" label="PRN" ref="n112" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1047"/>
+        </fs>
+    </a>
+    <node xml:id="n113">
+        <link targets="r271"/>
+    </node>
+    <a xml:id="a-145416" label="NounChunk" ref="n113" as="anc">
+        <fs>
+            <f name="id" value="801"/>
+        </fs>
+    </a>
+    <node xml:id="n114">
+        <link targets="r273"/>
+    </node>
+    <a xml:id="a-145417" label="NounChunk" ref="n114" as="anc">
+        <fs>
+            <f name="id" value="802"/>
+        </fs>
+    </a>
+    <node xml:id="n115">
+        <link targets="r275"/>
+    </node>
+    <a xml:id="a-145418" label="NounChunk" ref="n115" as="anc">
+        <fs>
+            <f name="id" value="803"/>
+        </fs>
+    </a>
+    <node xml:id="n116">
+        <link targets="r277"/>
+    </node>
+    <a xml:id="a-145419" label="NounChunk" ref="n116" as="anc">
+        <fs>
+            <f name="id" value="8033"/>
+        </fs>
+    </a>
+    <node xml:id="n117">
+        <link targets="r279"/>
+    </node>
+    <a xml:id="a-145420" label="NounChunk" ref="n117" as="anc">
+        <fs>
+            <f name="id" value="804"/>
+        </fs>
+    </a>
+    <node xml:id="n118">
+        <link targets="r281"/>
+    </node>
+    <a xml:id="a-145421" label="NounChunk" ref="n118" as="anc">
+        <fs>
+            <f name="id" value="805"/>
+        </fs>
+    </a>
+    <node xml:id="n119">
+        <link targets="r283"/>
+    </node>
+    <a xml:id="a-145422" label="PRN" ref="n119" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1049"/>
+        </fs>
+    </a>
+    <a xml:id="a-145423" label="NounChunk" ref="n119" as="anc">
+        <fs>
+            <f name="id" value="806"/>
+        </fs>
+    </a>
+    <node xml:id="n12">
+        <link targets="r30"/>
+    </node>
+    <a xml:id="a-145276" label="NounChunk" ref="n12" as="anc">
+        <fs>
+            <f name="id" value="707"/>
+        </fs>
+    </a>
+    <node xml:id="n120">
+        <link targets="r286"/>
+    </node>
+    <a xml:id="a-145424" label="NounChunk" ref="n120" as="anc">
+        <fs>
+            <f name="id" value="807"/>
+        </fs>
+    </a>
+    <a xml:id="a-145425" label="PRN" ref="n120" as="anc">
+        <fs>
+            <f name="case" value="objective"/>
+            <f name="cls" value="Thing"/>
+            <f name="id" value="8079"/>
+            <f name="number" value="singular"/>
+            <f name="person" value="third"/>
+            <f name="string" value="it"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <node xml:id="n121">
+        <link targets="r289"/>
+    </node>
+    <a xml:id="a-145426" label="NounChunk" ref="n121" as="anc">
+        <fs>
+            <f name="id" value="808"/>
+        </fs>
+    </a>
+    <node xml:id="n122">
+        <link targets="r291"/>
+    </node>
+    <a xml:id="a-145427" label="NounChunk" ref="n122" as="anc">
+        <fs>
+            <f name="id" value="809"/>
+        </fs>
+    </a>
+    <a xml:id="a-145428" label="PRN" ref="n122" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="He"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1050"/>
+        </fs>
+    </a>
+    <node xml:id="n123">
+        <link targets="r294"/>
+    </node>
+    <a xml:id="a-145429" label="NounChunk" ref="n123" as="anc">
+        <fs>
+            <f name="id" value="810"/>
+        </fs>
+    </a>
+    <a xml:id="a-145430" label="PRN" ref="n123" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="himself"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1051"/>
+        </fs>
+    </a>
+    <node xml:id="n124">
+        <link targets="r297"/>
+    </node>
+    <a xml:id="a-145431" label="NounChunk" ref="n124" as="anc">
+        <fs>
+            <f name="id" value="811"/>
+        </fs>
+    </a>
+    <node xml:id="n125">
+        <link targets="r299"/>
+    </node>
+    <a xml:id="a-145432" label="NounChunk" ref="n125" as="anc">
+        <fs>
+            <f name="id" value="812"/>
+        </fs>
+    </a>
+    <a xml:id="a-145433" label="PRN" ref="n125" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1052"/>
+        </fs>
+    </a>
+    <node xml:id="n126">
+        <link targets="r302"/>
+    </node>
+    <a xml:id="a-145434" label="NounChunk" ref="n126" as="anc">
+        <fs>
+            <f name="id" value="813"/>
+        </fs>
+    </a>
+    <a xml:id="a-145435" label="Organization" ref="n126" as="anc">
+        <fs>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1833"/>
+            <f name="corefText" value="it"/>
+            <f name="id" value="902"/>
+            <f name="matches" value="[883, 902]"/>
+            <f name="orgType" value="other"/>
+            <f name="number" value="singular"/>
+        </fs>
+    </a>
+    <node xml:id="n127">
+        <link targets="r305"/>
+    </node>
+    <a xml:id="a-145436" label="NounChunk" ref="n127" as="anc">
+        <fs>
+            <f name="id" value="814"/>
+        </fs>
+    </a>
+    <node xml:id="n128">
+        <link targets="r307"/>
+    </node>
+    <a xml:id="a-145437" label="NounChunk" ref="n128" as="anc">
+        <fs>
+            <f name="id" value="815"/>
+        </fs>
+    </a>
+    <a xml:id="a-145438" label="Location" ref="n128" as="anc">
+        <fs>
+            <f name="locType" value="city"/>
+            <f name="id" value="903"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="matches" value="[8834, 903, 88334]"/>
+        </fs>
+    </a>
+    <node xml:id="n129">
+        <link targets="r310"/>
+    </node>
+    <a xml:id="a-145439" label="PRN" ref="n129" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="him"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1053"/>
+        </fs>
+    </a>
+    <a xml:id="a-145440" label="NounChunk" ref="n129" as="anc">
+        <fs>
+            <f name="id" value="816"/>
+        </fs>
+    </a>
+    <node xml:id="n13">
+        <link targets="r32"/>
+    </node>
+    <a xml:id="a-145277" label="NounChunk" ref="n13" as="anc">
+        <fs>
+            <f name="id" value="708"/>
+        </fs>
+    </a>
+    <node xml:id="n130">
+        <link targets="r313"/>
+    </node>
+    <a xml:id="a-145441" label="NounChunk" ref="n130" as="anc">
+        <fs>
+            <f name="id" value="817"/>
+        </fs>
+    </a>
+    <a xml:id="a-145442" label="Person" ref="n130" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="person" value="[897, 904]"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="id" value="904"/>
+            <f name="matches" value="[897, 904, 878, 899, 910]"/>
+        </fs>
+    </a>
+    <node xml:id="n131">
+        <link targets="r316"/>
+    </node>
+    <a xml:id="a-145443" label="NounChunk" ref="n131" as="anc">
+        <fs>
+            <f name="id" value="818"/>
+        </fs>
+    </a>
+    <a xml:id="a-145444" label="PRN" ref="n131" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="string" value="it"/>
+            <f name="id" value="1054"/>
+            <f name="matches" value="[]"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Thing"/>
+        </fs>
+    </a>
+    <node xml:id="n132">
+        <link targets="r319"/>
+    </node>
+    <a xml:id="a-145445" label="PRN" ref="n132" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1055"/>
+        </fs>
+    </a>
+    <a xml:id="a-145446" label="NounChunk" ref="n132" as="anc">
+        <fs>
+            <f name="id" value="819"/>
+        </fs>
+    </a>
+    <node xml:id="n133">
+        <link targets="r322"/>
+    </node>
+    <a xml:id="a-145447" label="NounChunk" ref="n133" as="anc">
+        <fs>
+            <f name="id" value="820"/>
+        </fs>
+    </a>
+    <node xml:id="n134">
+        <link targets="r324"/>
+    </node>
+    <a xml:id="a-145448" label="NounChunk" ref="n134" as="anc">
+        <fs>
+            <f name="id" value="821"/>
+        </fs>
+    </a>
+    <node xml:id="n135">
+        <link targets="r326"/>
+    </node>
+    <a xml:id="a-145449" label="Person" ref="n135" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1825"/>
+            <f name="corefText" value="his"/>
+            <f name="id" value="905"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145450" label="NounChunk" ref="n135" as="anc">
+        <fs>
+            <f name="id" value="822"/>
+        </fs>
+    </a>
+    <node xml:id="n136">
+        <link targets="r329"/>
+    </node>
+    <a xml:id="a-145451" label="PRN" ref="n136" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="you"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="second"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1056"/>
+        </fs>
+    </a>
+    <a xml:id="a-145452" label="NounChunk" ref="n136" as="anc">
+        <fs>
+            <f name="id" value="823"/>
+        </fs>
+    </a>
+    <node xml:id="n137">
+        <link targets="r332"/>
+    </node>
+    <a xml:id="a-145453" label="NounChunk" ref="n137" as="anc">
+        <fs>
+            <f name="id" value="824"/>
+        </fs>
+    </a>
+    <node xml:id="n138">
+        <link targets="r334"/>
+    </node>
+    <a xml:id="a-145454" label="NounChunk" ref="n138" as="anc">
+        <fs>
+            <f name="id" value="825"/>
+        </fs>
+    </a>
+    <a xml:id="a-145455" label="PRN" ref="n138" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="me"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1057"/>
+        </fs>
+    </a>
+    <node xml:id="n139">
+        <link targets="r337"/>
+    </node>
+    <a xml:id="a-145456" label="NounChunk" ref="n139" as="anc">
+        <fs>
+            <f name="id" value="826"/>
+        </fs>
+    </a>
+    <node xml:id="n14">
+        <link targets="r34"/>
+    </node>
+    <a xml:id="a-145278" label="NounChunk" ref="n14" as="anc">
+        <fs>
+            <f name="id" value="709"/>
+        </fs>
+    </a>
+    <node xml:id="n140">
+        <link targets="r339"/>
+    </node>
+    <a xml:id="a-145457" label="NounChunk" ref="n140" as="anc">
+        <fs>
+            <f name="id" value="827"/>
+        </fs>
+    </a>
+    <node xml:id="n141">
+        <link targets="r341"/>
+    </node>
+    <a xml:id="a-145458" label="NounChunk" ref="n141" as="anc">
+        <fs>
+            <f name="id" value="828"/>
+        </fs>
+    </a>
+    <node xml:id="n142">
+        <link targets="r343"/>
+    </node>
+    <a xml:id="a-145459" label="Organization" ref="n142" as="anc">
+        <fs>
+            <f name="orgType" value="newspaper/media"/>
+            <f name="id" value="8286"/>
+        </fs>
+    </a>
+    <node xml:id="n143">
+        <link targets="r345"/>
+    </node>
+    <a xml:id="a-145460" label="NounChunk" ref="n143" as="anc">
+        <fs>
+            <f name="id" value="829"/>
+        </fs>
+    </a>
+    <node xml:id="n144">
+        <link targets="r347"/>
+    </node>
+    <a xml:id="a-145461" label="PRN" ref="n144" as="anc">
+        <fs>
+            <f name="matches" value="[900]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1058"/>
+        </fs>
+    </a>
+    <node xml:id="n145">
+        <link targets="r349"/>
+    </node>
+    <a xml:id="a-145462" label="NounChunk" ref="n145" as="anc">
+        <fs>
+            <f name="id" value="830"/>
+        </fs>
+    </a>
+    <node xml:id="n146">
+        <link targets="r351"/>
+    </node>
+    <a xml:id="a-145463" label="NounChunk" ref="n146" as="anc">
+        <fs>
+            <f name="id" value="8309"/>
+        </fs>
+    </a>
+    <a xml:id="a-145464" label="PRN" ref="n146" as="anc">
+        <fs>
+            <f name="cls" value="Person"/>
+            <f name="gender" value="either"/>
+            <f name="id" value="8309"/>
+            <f name="number" value="plural"/>
+            <f name="person" value="first"/>
+            <f name="string" value="'s"/>
+            <f name="type" value="anaphoric"/>
+            <f name="case" value="objective"/>
+        </fs>
+    </a>
+    <node xml:id="n147">
+        <link targets="r354"/>
+    </node>
+    <a xml:id="a-145465" label="NounChunk" ref="n147" as="anc">
+        <fs>
+            <f name="id" value="831"/>
+        </fs>
+    </a>
+    <node xml:id="n148">
+        <link targets="r356"/>
+    </node>
+    <a xml:id="a-145466" label="NounChunk" ref="n148" as="anc">
+        <fs>
+            <f name="id" value="832"/>
+        </fs>
+    </a>
+    <node xml:id="n149">
+        <link targets="r358"/>
+    </node>
+    <a xml:id="a-145467" label="NounChunk" ref="n149" as="anc">
+        <fs>
+            <f name="id" value="833"/>
+        </fs>
+    </a>
+    <a xml:id="a-145468" label="Person" ref="n149" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1826"/>
+            <f name="corefText" value="he"/>
+            <f name="id" value="906"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n15">
+        <link targets="r36"/>
+    </node>
+    <a xml:id="a-145279" label="NounChunk" ref="n15" as="anc">
+        <fs>
+            <f name="id" value="710"/>
+        </fs>
+    </a>
+    <node xml:id="n150">
+        <link targets="r361"/>
+    </node>
+    <a xml:id="a-145469" label="PRN" ref="n150" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="string" value="We"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="plural"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1059"/>
+        </fs>
+    </a>
+    <a xml:id="a-145470" label="NounChunk" ref="n150" as="anc">
+        <fs>
+            <f name="id" value="834"/>
+        </fs>
+    </a>
+    <node xml:id="n151">
+        <link targets="r364"/>
+    </node>
+    <a xml:id="a-145471" label="NounChunk" ref="n151" as="anc">
+        <fs>
+            <f name="id" value="835"/>
+        </fs>
+    </a>
+    <a xml:id="a-145472" label="PRN" ref="n151" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1060"/>
+        </fs>
+    </a>
+    <node xml:id="n152">
+        <link targets="r367"/>
+    </node>
+    <a xml:id="a-145473" label="PRN" ref="n152" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1061"/>
+        </fs>
+    </a>
+    <a xml:id="a-145474" label="NounChunk" ref="n152" as="anc">
+        <fs>
+            <f name="id" value="836"/>
+        </fs>
+    </a>
+    <node xml:id="n153">
+        <link targets="r370"/>
+    </node>
+    <a xml:id="a-145475" label="NounChunk" ref="n153" as="anc">
+        <fs>
+            <f name="id" value="837"/>
+        </fs>
+    </a>
+    <node xml:id="n154">
+        <link targets="r372"/>
+    </node>
+    <a xml:id="a-145476" label="NounChunk" ref="n154" as="anc">
+        <fs>
+            <f name="id" value="838"/>
+        </fs>
+    </a>
+    <node xml:id="n155">
+        <link targets="r374"/>
+    </node>
+    <a xml:id="a-145477" label="Person" ref="n155" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1828"/>
+            <f name="corefText" value="his"/>
+            <f name="id" value="907"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145478" label="NounChunk" ref="n155" as="anc">
+        <fs>
+            <f name="id" value="839"/>
+        </fs>
+    </a>
+    <node xml:id="n156">
+        <link targets="r377"/>
+    </node>
+    <a xml:id="a-145479" label="NounChunk" ref="n156" as="anc">
+        <fs>
+            <f name="id" value="840"/>
+        </fs>
+    </a>
+    <node xml:id="n157">
+        <link targets="r379"/>
+    </node>
+    <a xml:id="a-145480" label="NounChunk" ref="n157" as="anc">
+        <fs>
+            <f name="id" value="841"/>
+        </fs>
+    </a>
+    <node xml:id="n158">
+        <link targets="r381"/>
+    </node>
+    <a xml:id="a-145481" label="PRN" ref="n158" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1062"/>
+        </fs>
+    </a>
+    <node xml:id="n159">
+        <link targets="r383"/>
+    </node>
+    <a xml:id="a-145482" label="NounChunk" ref="n159" as="anc">
+        <fs>
+            <f name="id" value="842"/>
+        </fs>
+    </a>
+    <node xml:id="n16">
+        <link targets="r38"/>
+    </node>
+    <a xml:id="a-145280" label="PRN" ref="n16" as="anc">
+        <fs>
+            <f name="matches" value="[881]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1019"/>
+        </fs>
+    </a>
+    <node xml:id="n160">
+        <link targets="r385"/>
+    </node>
+    <a xml:id="a-145483" label="NounChunk" ref="n160" as="anc">
+        <fs>
+            <f name="id" value="843"/>
+        </fs>
+    </a>
+    <a xml:id="a-145484" label="PRN" ref="n160" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1063"/>
+        </fs>
+    </a>
+    <node xml:id="n161">
+        <link targets="r388"/>
+    </node>
+    <a xml:id="a-145485" label="NounChunk" ref="n161" as="anc">
+        <fs>
+            <f name="id" value="844"/>
+        </fs>
+    </a>
+    <node xml:id="n162">
+        <link targets="r390"/>
+    </node>
+    <a xml:id="a-145486" label="PRN" ref="n162" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="him"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1064"/>
+        </fs>
+    </a>
+    <a xml:id="a-145487" label="NounChunk" ref="n162" as="anc">
+        <fs>
+            <f name="id" value="845"/>
+        </fs>
+    </a>
+    <node xml:id="n163">
+        <link targets="r393"/>
+    </node>
+    <a xml:id="a-145488" label="NounChunk" ref="n163" as="anc">
+        <fs>
+            <f name="id" value="846"/>
+        </fs>
+    </a>
+    <a xml:id="a-145489" label="PRN" ref="n163" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1065"/>
+        </fs>
+    </a>
+    <node xml:id="n164">
+        <link targets="r396"/>
+    </node>
+    <a xml:id="a-145490" label="NounChunk" ref="n164" as="anc">
+        <fs>
+            <f name="id" value="847"/>
+        </fs>
+    </a>
+    <a xml:id="a-145491" label="PRN" ref="n164" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="him"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1066"/>
+        </fs>
+    </a>
+    <node xml:id="n165">
+        <link targets="r399"/>
+    </node>
+    <a xml:id="a-145492" label="NounChunk" ref="n165" as="anc">
+        <fs>
+            <f name="id" value="848"/>
+        </fs>
+    </a>
+    <node xml:id="n166">
+        <link targets="r401"/>
+    </node>
+    <a xml:id="a-145493" label="NounChunk" ref="n166" as="anc">
+        <fs>
+            <f name="id" value="849"/>
+        </fs>
+    </a>
+    <node xml:id="n167">
+        <link targets="r403"/>
+    </node>
+    <a xml:id="a-145494" label="NounChunk" ref="n167" as="anc">
+        <fs>
+            <f name="id" value="850"/>
+        </fs>
+    </a>
+    <a xml:id="a-145495" label="PRN" ref="n167" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="type" value="pleonastic"/>
+            <f name="id" value="1013"/>
+        </fs>
+    </a>
+    <node xml:id="n168">
+        <link targets="r406"/>
+    </node>
+    <a xml:id="a-145496" label="NounChunk" ref="n168" as="anc">
+        <fs>
+            <f name="id" value="851"/>
+        </fs>
+    </a>
+    <node xml:id="n169">
+        <link targets="r408"/>
+    </node>
+    <a xml:id="a-145497" label="PRN" ref="n169" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1067"/>
+        </fs>
+    </a>
+    <node xml:id="n17">
+        <link targets="r40"/>
+    </node>
+    <a xml:id="a-145281" label="PRN" ref="n17" as="anc">
+        <fs>
+            <f name="matches" value="[881]"/>
+            <f name="string" value="He"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1020"/>
+        </fs>
+    </a>
+    <a xml:id="a-145282" label="NounChunk" ref="n17" as="anc">
+        <fs>
+            <f name="id" value="711"/>
+        </fs>
+    </a>
+    <node xml:id="n170">
+        <link targets="r410"/>
+    </node>
+    <a xml:id="a-145498" label="NounChunk" ref="n170" as="anc">
+        <fs>
+            <f name="id" value="852"/>
+        </fs>
+    </a>
+    <a xml:id="a-145499" label="PRN" ref="n170" as="anc">
+        <fs>
+            <f name="matches" value="[]"/>
+            <f name="type" value="pleonastic"/>
+            <f name="id" value="1014"/>
+        </fs>
+    </a>
+    <node xml:id="n171">
+        <link targets="r413"/>
+    </node>
+    <a xml:id="a-145500" label="NounChunk" ref="n171" as="anc">
+        <fs>
+            <f name="id" value="853"/>
+        </fs>
+    </a>
+    <node xml:id="n172">
+        <link targets="r415"/>
+    </node>
+    <a xml:id="a-145501" label="PRN" ref="n172" as="anc">
+        <fs>
+            <f name="matches" value="[906]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1069"/>
+        </fs>
+    </a>
+    <a xml:id="a-145502" label="NounChunk" ref="n172" as="anc">
+        <fs>
+            <f name="id" value="854"/>
+        </fs>
+    </a>
+    <node xml:id="n173">
+        <link targets="r418"/>
+    </node>
+    <a xml:id="a-145503" label="NounChunk" ref="n173" as="anc">
+        <fs>
+            <f name="id" value="855"/>
+        </fs>
+    </a>
+    <node xml:id="n174">
+        <link targets="r420"/>
+    </node>
+    <a xml:id="a-145504" label="NounChunk" ref="n174" as="anc">
+        <fs>
+            <f name="id" value="856"/>
+        </fs>
+    </a>
+    <node xml:id="n175">
+        <link targets="r422"/>
+    </node>
+    <a xml:id="a-145505" label="NounChunk" ref="n175" as="anc">
+        <fs>
+            <f name="id" value="857"/>
+        </fs>
+    </a>
+    <node xml:id="n176">
+        <link targets="r424"/>
+    </node>
+    <a xml:id="a-145506" label="NounChunk" ref="n176" as="anc">
+        <fs>
+            <f name="id" value="8573"/>
+        </fs>
+    </a>
+    <node xml:id="n177">
+        <link targets="r426"/>
+    </node>
+    <a xml:id="a-145507" label="NounChunk" ref="n177" as="anc">
+        <fs>
+            <f name="id" value="859"/>
+        </fs>
+    </a>
+    <node xml:id="n178">
+        <link targets="r428"/>
+    </node>
+    <a xml:id="a-145508" label="PRN" ref="n178" as="anc">
+        <fs>
+            <f name="case" value="nominative"/>
+            <f name="cls" value="Thing"/>
+            <f name="id" value="8609"/>
+            <f name="number" value="singular"/>
+            <f name="person" value="third"/>
+            <f name="string" value="that"/>
+            <f name="type" value="anaphoric"/>
+        </fs>
+    </a>
+    <a xml:id="a-145509" label="NounChunk" ref="n178" as="anc">
+        <fs>
+            <f name="id" value="860"/>
+        </fs>
+    </a>
+    <node xml:id="n179">
+        <link targets="r431"/>
+    </node>
+    <a xml:id="a-145510" label="NounChunk" ref="n179" as="anc">
+        <fs>
+            <f name="id" value="861"/>
+        </fs>
+    </a>
+    <node xml:id="n18">
+        <link targets="r43"/>
+    </node>
+    <a xml:id="a-145283" label="NounChunk" ref="n18" as="anc">
+        <fs>
+            <f name="id" value="712"/>
+        </fs>
+    </a>
+    <a xml:id="a-145284" label="PRN" ref="n18" as="anc">
+        <fs>
+            <f name="matches" value="[881]"/>
+            <f name="string" value="himself"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1021"/>
+        </fs>
+    </a>
+    <node xml:id="n180">
+        <link targets="r433"/>
+    </node>
+    <a xml:id="a-145511" label="NounChunk" ref="n180" as="anc">
+        <fs>
+            <f name="id" value="862"/>
+        </fs>
+    </a>
+    <node xml:id="n181">
+        <link targets="r435"/>
+    </node>
+    <a xml:id="a-145512" label="Person" ref="n181" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="id" value="908"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145513" label="NounChunk" ref="n181" as="anc">
+        <fs>
+            <f name="id" value="863"/>
+        </fs>
+    </a>
+    <node xml:id="n182">
+        <link targets="r438"/>
+    </node>
+    <a xml:id="a-145514" label="NounChunk" ref="n182" as="anc">
+        <fs>
+            <f name="id" value="864"/>
+        </fs>
+    </a>
+    <node xml:id="n183">
+        <link targets="r440"/>
+    </node>
+    <a xml:id="a-145515" label="Organization" ref="n183" as="anc">
+        <fs>
+            <f name="id" value="909"/>
+            <f name="orgType" value="other"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1834"/>
+            <f name="corefText" value="it"/>
+        </fs>
+    </a>
+    <node xml:id="n184">
+        <link targets="r442"/>
+    </node>
+    <a xml:id="a-145516" label="Location" ref="n184" as="anc">
+        <fs>
+            <f name="locType" value="city"/>
+            <f name="id" value="9097"/>
+        </fs>
+    </a>
+    <node xml:id="n185">
+        <link targets="r444"/>
+    </node>
+    <a xml:id="a-145517" label="NounChunk" ref="n185" as="anc">
+        <fs>
+            <f name="id" value="865"/>
+        </fs>
+    </a>
+    <node xml:id="n186">
+        <link targets="r446"/>
+    </node>
+    <a xml:id="a-145518" label="Person" ref="n186" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="person" value="third"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="id" value="910"/>
+            <f name="matches" value="[897, 904, 878, 899, 910]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145519" label="NounChunk" ref="n186" as="anc">
+        <fs>
+            <f name="id" value="866"/>
+        </fs>
+    </a>
+    <node xml:id="n187">
+        <link targets="r449"/>
+    </node>
+    <a xml:id="a-145520" label="NounChunk" ref="n187" as="anc">
+        <fs>
+            <f name="id" value="867"/>
+        </fs>
+    </a>
+    <a xml:id="a-145521" label="Person" ref="n187" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="id" value="911"/>
+        </fs>
+    </a>
+    <node xml:id="n188">
+        <link targets="r452"/>
+    </node>
+    <a xml:id="a-145522" label="NounChunk" ref="n188" as="anc">
+        <fs>
+            <f name="id" value="868"/>
+        </fs>
+    </a>
+    <node xml:id="n189">
+        <link targets="r454"/>
+    </node>
+    <a xml:id="a-145523" label="Person" ref="n189" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="person" value="third"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="id" value="912"/>
+        </fs>
+    </a>
+    <a xml:id="a-145524" label="NounChunk" ref="n189" as="anc">
+        <fs>
+            <f name="id" value="869"/>
+        </fs>
+    </a>
+    <node xml:id="n19">
+        <link targets="r46"/>
+    </node>
+    <a xml:id="a-145285" label="NounChunk" ref="n19" as="anc">
+        <fs>
+            <f name="id" value="713"/>
+        </fs>
+    </a>
+    <node xml:id="n190">
+        <link targets="r457"/>
+    </node>
+    <a xml:id="a-145525" label="NounChunk" ref="n190" as="anc">
+        <fs>
+            <f name="id" value="870"/>
+        </fs>
+    </a>
+    <node xml:id="n191">
+        <link targets="r459"/>
+    </node>
+    <a xml:id="a-145526" label="NounChunk" ref="n191" as="anc">
+        <fs>
+            <f name="id" value="871"/>
+        </fs>
+    </a>
+    <a xml:id="a-145527" label="PRN" ref="n191" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="nominative"/>
+            <f name="string" value="it"/>
+            <f name="id" value="1074"/>
+            <f name="matches" value="[]"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Thing"/>
+        </fs>
+    </a>
+    <node xml:id="n192">
+        <link targets="r462"/>
+    </node>
+    <a xml:id="a-145528" label="NounChunk" ref="n192" as="anc">
+        <fs>
+            <f name="id" value="872"/>
+        </fs>
+    </a>
+    <node xml:id="n193">
+        <link targets="r464"/>
+    </node>
+    <a xml:id="a-145529" label="Person" ref="n193" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="isLast" value="true"/>
+            <f name="id" value="913"/>
+        </fs>
+    </a>
+    <a xml:id="a-145530" label="NounChunk" ref="n193" as="anc">
+        <fs>
+            <f name="id" value="873"/>
+        </fs>
+    </a>
+    <node xml:id="n194">
+        <link targets="r467"/>
+    </node>
+    <a xml:id="a-145531" label="Date" ref="n194" as="anc">
+        <fs>
+            <f name="id" value="9925"/>
+            <f name="kind" value="dateTime"/>
+        </fs>
+    </a>
+    <node xml:id="n195">
+        <link targets="r469"/>
+    </node>
+    <a xml:id="a-145532" label="NounChunk" ref="n195" as="anc">
+        <fs>
+            <f name="id" value="874"/>
+        </fs>
+    </a>
+    <node xml:id="n196">
+        <link targets="r471"/>
+    </node>
+    <a xml:id="a-145533" label="NounChunk" ref="n196" as="anc">
+        <fs>
+            <f name="id" value="875"/>
+        </fs>
+    </a>
+    <node xml:id="n2">
+        <link targets="r6"/>
+    </node>
+    <a xml:id="a-145262" label="NounChunk" ref="n2" as="anc">
+        <fs>
+            <f name="id" value="700"/>
+        </fs>
+    </a>
+    <node xml:id="n20">
+        <link targets="r48"/>
+    </node>
+    <a xml:id="a-145286" label="NounChunk" ref="n20" as="anc">
+        <fs>
+            <f name="id" value="714"/>
+        </fs>
+    </a>
+    <node xml:id="n21">
+        <link targets="r50"/>
+    </node>
+    <a xml:id="a-145287" label="NounChunk" ref="n21" as="anc">
+        <fs>
+            <f name="id" value="715"/>
+        </fs>
+    </a>
+    <node xml:id="n22">
+        <link targets="r52"/>
+    </node>
+    <a xml:id="a-145288" label="PRN" ref="n22" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1023"/>
+        </fs>
+    </a>
+    <a xml:id="a-145289" label="NounChunk" ref="n22" as="anc">
+        <fs>
+            <f name="id" value="716"/>
+        </fs>
+    </a>
+    <node xml:id="n23">
+        <link targets="r55"/>
+    </node>
+    <a xml:id="a-145290" label="PRN" ref="n23" as="anc">
+        <fs>
+            <f name="matches" value="[881]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1024"/>
+        </fs>
+    </a>
+    <a xml:id="a-145291" label="NounChunk" ref="n23" as="anc">
+        <fs>
+            <f name="id" value="717"/>
+        </fs>
+    </a>
+    <node xml:id="n24">
+        <link targets="r58"/>
+    </node>
+    <a xml:id="a-145292" label="NounChunk" ref="n24" as="anc">
+        <fs>
+            <f name="id" value="718"/>
+        </fs>
+    </a>
+    <node xml:id="n25">
+        <link targets="r60"/>
+    </node>
+    <a xml:id="a-145293" label="NounChunk" ref="n25" as="anc">
+        <fs>
+            <f name="id" value="7183"/>
+        </fs>
+    </a>
+    <node xml:id="n26">
+        <link targets="r62"/>
+    </node>
+    <a xml:id="a-145294" label="NounChunk" ref="n26" as="anc">
+        <fs>
+            <f name="id" value="719"/>
+        </fs>
+    </a>
+    <node xml:id="n27">
+        <link targets="r64"/>
+    </node>
+    <a xml:id="a-145295" label="NounChunk" ref="n27" as="anc">
+        <fs>
+            <f name="id" value="720"/>
+        </fs>
+    </a>
+    <a xml:id="a-145296" label="Person" ref="n27" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1806"/>
+            <f name="corefText" value="he"/>
+            <f name="id" value="882"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n28">
+        <link targets="r67"/>
+    </node>
+    <a xml:id="a-145297" label="NounChunk" ref="n28" as="anc">
+        <fs>
+            <f name="id" value="721"/>
+        </fs>
+    </a>
+    <node xml:id="n29">
+        <link targets="r69"/>
+    </node>
+    <a xml:id="a-145298" label="PRN" ref="n29" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1025"/>
+        </fs>
+    </a>
+    <a xml:id="a-145299" label="NounChunk" ref="n29" as="anc">
+        <fs>
+            <f name="id" value="722"/>
+        </fs>
+    </a>
+    <node xml:id="n3">
+        <link targets="r8"/>
+    </node>
+    <a xml:id="a-145263" label="PRN" ref="n3" as="anc">
+        <fs>
+            <f name="matches" value="[877]"/>
+            <f name="string" value="His"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1016"/>
+        </fs>
+    </a>
+    <node xml:id="n30">
+        <link targets="r72"/>
+    </node>
+    <a xml:id="a-145300" label="NounChunk" ref="n30" as="anc">
+        <fs>
+            <f name="id" value="723"/>
+        </fs>
+    </a>
+    <node xml:id="n31">
+        <link targets="r74"/>
+    </node>
+    <a xml:id="a-145301" label="NounChunk" ref="n31" as="anc">
+        <fs>
+            <f name="id" value="724"/>
+        </fs>
+    </a>
+    <node xml:id="n32">
+        <link targets="r76"/>
+    </node>
+    <a xml:id="a-145302" label="NounChunk" ref="n32" as="anc">
+        <fs>
+            <f name="id" value="725"/>
+        </fs>
+    </a>
+    <node xml:id="n33">
+        <link targets="r78"/>
+    </node>
+    <a xml:id="a-145303" label="Organization" ref="n33" as="anc">
+        <fs>
+            <f name="orgType" value="other"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="id" value="883"/>
+            <f name="matches" value="[883, 902]"/>
+        </fs>
+    </a>
+    <node xml:id="n34">
+        <link targets="r80"/>
+    </node>
+    <a xml:id="a-145304" label="Location" ref="n34" as="anc">
+        <fs>
+            <f name="locType" value="city"/>
+            <f name="id" value="8837"/>
+        </fs>
+    </a>
+    <node xml:id="n35">
+        <link targets="r82"/>
+    </node>
+    <a xml:id="a-145305" label="PRN" ref="n35" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1026"/>
+        </fs>
+    </a>
+    <a xml:id="a-145306" label="NounChunk" ref="n35" as="anc">
+        <fs>
+            <f name="id" value="726"/>
+        </fs>
+    </a>
+    <node xml:id="n36">
+        <link targets="r85"/>
+    </node>
+    <a xml:id="a-145307" label="NounChunk" ref="n36" as="anc">
+        <fs>
+            <f name="id" value="727"/>
+        </fs>
+    </a>
+    <node xml:id="n37">
+        <link targets="r87"/>
+    </node>
+    <a xml:id="a-145308" label="Organization" ref="n37" as="anc">
+        <fs>
+            <f name="id" value="884"/>
+            <f name="person" value="third"/>
+            <f name="case" value="objective"/>
+            <f name="number" value="singular"/>
+            <f name="orgType" value="other"/>
+        </fs>
+    </a>
+    <node xml:id="n38">
+        <link targets="r89"/>
+    </node>
+    <a xml:id="a-145309" label="PRN" ref="n38" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="He"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1027"/>
+        </fs>
+    </a>
+    <a xml:id="a-145310" label="NounChunk" ref="n38" as="anc">
+        <fs>
+            <f name="id" value="728"/>
+        </fs>
+    </a>
+    <node xml:id="n39">
+        <link targets="r92"/>
+    </node>
+    <a xml:id="a-145311" label="NounChunk" ref="n39" as="anc">
+        <fs>
+            <f name="id" value="729"/>
+        </fs>
+    </a>
+    <node xml:id="n4">
+        <link targets="r10"/>
+    </node>
+    <a xml:id="a-145264" label="NounChunk" ref="n4" as="anc">
+        <fs>
+            <f name="id" value="701"/>
+        </fs>
+    </a>
+    <node xml:id="n40">
+        <link targets="r94"/>
+    </node>
+    <a xml:id="a-145312" label="NounChunk" ref="n40" as="anc">
+        <fs>
+            <f name="id" value="730"/>
+        </fs>
+    </a>
+    <a xml:id="a-145313" label="Date" ref="n40" as="anc">
+        <fs>
+            <f name="kind" value="dateTime"/>
+            <f name="id" value="33730"/>
+        </fs>
+    </a>
+    <node xml:id="n41">
+        <link targets="r97"/>
+    </node>
+    <a xml:id="a-145314" label="NounChunk" ref="n41" as="anc">
+        <fs>
+            <f name="id" value="731"/>
+        </fs>
+    </a>
+    <a xml:id="a-145315" label="PRN" ref="n41" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1028"/>
+        </fs>
+    </a>
+    <node xml:id="n42">
+        <link targets="r100"/>
+    </node>
+    <a xml:id="a-145316" label="NounChunk" ref="n42" as="anc">
+        <fs>
+            <f name="id" value="732"/>
+        </fs>
+    </a>
+    <node xml:id="n43">
+        <link targets="r102"/>
+    </node>
+    <a xml:id="a-145317" label="PRN" ref="n43" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1029"/>
+        </fs>
+    </a>
+    <node xml:id="n44">
+        <link targets="r104"/>
+    </node>
+    <a xml:id="a-145318" label="NounChunk" ref="n44" as="anc">
+        <fs>
+            <f name="id" value="733"/>
+        </fs>
+    </a>
+    <node xml:id="n45">
+        <link targets="r106"/>
+    </node>
+    <a xml:id="a-145319" label="NounChunk" ref="n45" as="anc">
+        <fs>
+            <f name="id" value="734"/>
+        </fs>
+    </a>
+    <a xml:id="a-145320" label="PRN" ref="n45" as="anc">
+        <fs>
+            <f name="matches" value="[882]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1031"/>
+        </fs>
+    </a>
+    <node xml:id="n46">
+        <link targets="r109"/>
+    </node>
+    <a xml:id="a-145321" label="NounChunk" ref="n46" as="anc">
+        <fs>
+            <f name="id" value="735"/>
+        </fs>
+    </a>
+    <node xml:id="n47">
+        <link targets="r111"/>
+    </node>
+    <a xml:id="a-145322" label="NounChunk" ref="n47" as="anc">
+        <fs>
+            <f name="id" value="736"/>
+        </fs>
+    </a>
+    <node xml:id="n48">
+        <link targets="r113"/>
+    </node>
+    <a xml:id="a-145323" label="NounChunk" ref="n48" as="anc">
+        <fs>
+            <f name="id" value="737"/>
+        </fs>
+    </a>
+    <a xml:id="a-145324" label="Organization" ref="n48" as="anc">
+        <fs>
+            <f name="id" value="7376"/>
+            <f name="orgType" value="newspaper/media"/>
+        </fs>
+    </a>
+    <node xml:id="n49">
+        <link targets="r116"/>
+    </node>
+    <a xml:id="a-145325" label="Date" ref="n49" as="anc">
+        <fs>
+            <f name="kind" value="date"/>
+            <f name="id" value="33738"/>
+        </fs>
+    </a>
+    <a xml:id="a-145326" label="NounChunk" ref="n49" as="anc">
+        <fs>
+            <f name="id" value="738"/>
+        </fs>
+    </a>
+    <node xml:id="n5">
+        <link targets="r12"/>
+    </node>
+    <a xml:id="a-145265" label="Person" ref="n5" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="id" value="878"/>
+            <f name="matches" value="[897, 904, 878, 899, 910]"/>
+        </fs>
+    </a>
+    <node xml:id="n50">
+        <link targets="r119"/>
+    </node>
+    <a xml:id="a-145327" label="NounChunk" ref="n50" as="anc">
+        <fs>
+            <f name="id" value="739"/>
+        </fs>
+    </a>
+    <a xml:id="a-145328" label="Person" ref="n50" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1812"/>
+            <f name="corefText" value="he"/>
+            <f name="id" value="888"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n51">
+        <link targets="r122"/>
+    </node>
+    <a xml:id="a-145329" label="Organization" ref="n51" as="anc">
+        <fs>
+            <f name="orgType" value="newspaper/media"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="id" value="8897"/>
+            <f name="matches" value="[3356, 8897]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145330" label="NounChunk" ref="n51" as="anc">
+        <fs>
+            <f name="id" value="740"/>
+        </fs>
+    </a>
+    <node xml:id="n52">
+        <link targets="r125"/>
+    </node>
+    <a xml:id="a-145331" label="NounChunk" ref="n52" as="anc">
+        <fs>
+            <f name="id" value="741"/>
+        </fs>
+    </a>
+    <node xml:id="n53">
+        <link targets="r127"/>
+    </node>
+    <a xml:id="a-145332" label="Date" ref="n53" as="anc">
+        <fs>
+            <f name="kind" value="dateTime"/>
+            <f name="id" value="33742"/>
+        </fs>
+    </a>
+    <a xml:id="a-145333" label="NounChunk" ref="n53" as="anc">
+        <fs>
+            <f name="id" value="742"/>
+        </fs>
+    </a>
+    <node xml:id="n54">
+        <link targets="r130"/>
+    </node>
+    <a xml:id="a-145334" label="NounChunk" ref="n54" as="anc">
+        <fs>
+            <f name="id" value="743"/>
+        </fs>
+    </a>
+    <a xml:id="a-145335" label="PRN" ref="n54" as="anc">
+        <fs>
+            <f name="matches" value="[888]"/>
+            <f name="string" value="he"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1032"/>
+        </fs>
+    </a>
+    <node xml:id="n55">
+        <link targets="r133"/>
+    </node>
+    <a xml:id="a-145336" label="Person" ref="n55" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="nominative"/>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="id" value="891"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145337" label="NounChunk" ref="n55" as="anc">
+        <fs>
+            <f name="id" value="744"/>
+        </fs>
+    </a>
+    <node xml:id="n56">
+        <link targets="r136"/>
+    </node>
+    <a xml:id="a-145338" label="NounChunk" ref="n56" as="anc">
+        <fs>
+            <f name="id" value="745"/>
+        </fs>
+    </a>
+    <node xml:id="n57">
+        <link targets="r138"/>
+    </node>
+    <a xml:id="a-145339" label="NounChunk" ref="n57" as="anc">
+        <fs>
+            <f name="id" value="746"/>
+        </fs>
+    </a>
+    <node xml:id="n58">
+        <link targets="r140"/>
+    </node>
+    <a xml:id="a-145340" label="NounChunk" ref="n58" as="anc">
+        <fs>
+            <f name="id" value="747"/>
+        </fs>
+    </a>
+    <node xml:id="n59">
+        <link targets="r142"/>
+    </node>
+    <a xml:id="a-145341" label="PRN" ref="n59" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1033"/>
+        </fs>
+    </a>
+    <a xml:id="a-145342" label="NounChunk" ref="n59" as="anc">
+        <fs>
+            <f name="id" value="748"/>
+        </fs>
+    </a>
+    <node xml:id="n6">
+        <link targets="r14"/>
+    </node>
+    <a xml:id="a-145266" label="Date" ref="n6" as="anc">
+        <fs>
+            <f name="id" value="8354"/>
+            <f name="kind" value="date"/>
+        </fs>
+    </a>
+    <a xml:id="a-145267" label="NounChunk" ref="n6" as="anc">
+        <fs>
+            <f name="id" value="7013"/>
+        </fs>
+    </a>
+    <node xml:id="n60">
+        <link targets="r145"/>
+    </node>
+    <a xml:id="a-145343" label="NounChunk" ref="n60" as="anc">
+        <fs>
+            <f name="id" value="749"/>
+        </fs>
+    </a>
+    <a xml:id="a-145344" label="Person" ref="n60" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1813"/>
+            <f name="corefText" value="himself"/>
+            <f name="id" value="892"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n61">
+        <link targets="r148"/>
+    </node>
+    <a xml:id="a-145345" label="NounChunk" ref="n61" as="anc">
+        <fs>
+            <f name="id" value="750"/>
+        </fs>
+    </a>
+    <a xml:id="a-145346" label="PRN" ref="n61" as="anc">
+        <fs>
+            <f name="matches" value="[892]"/>
+            <f name="string" value="himself"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1034"/>
+        </fs>
+    </a>
+    <node xml:id="n62">
+        <link targets="r151"/>
+    </node>
+    <a xml:id="a-145347" label="NounChunk" ref="n62" as="anc">
+        <fs>
+            <f name="id" value="751"/>
+        </fs>
+    </a>
+    <node xml:id="n63">
+        <link targets="r153"/>
+    </node>
+    <a xml:id="a-145348" label="NounChunk" ref="n63" as="anc">
+        <fs>
+            <f name="id" value="752"/>
+        </fs>
+    </a>
+    <node xml:id="n64">
+        <link targets="r155"/>
+    </node>
+    <a xml:id="a-145349" label="Person" ref="n64" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="corefText" value="I"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1814"/>
+            <f name="id" value="893"/>
+            <f name="matches" value="[893, 894, 895]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145350" label="NounChunk" ref="n64" as="anc">
+        <fs>
+            <f name="id" value="753"/>
+        </fs>
+    </a>
+    <node xml:id="n65">
+        <link targets="r158"/>
+    </node>
+    <a xml:id="a-145351" label="PRN" ref="n65" as="anc">
+        <fs>
+            <f name="matches" value="[893]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1035"/>
+        </fs>
+    </a>
+    <a xml:id="a-145352" label="NounChunk" ref="n65" as="anc">
+        <fs>
+            <f name="id" value="755"/>
+        </fs>
+    </a>
+    <node xml:id="n66">
+        <link targets="r161"/>
+    </node>
+    <a xml:id="a-145353" label="NounChunk" ref="n66" as="anc">
+        <fs>
+            <f name="id" value="756"/>
+        </fs>
+    </a>
+    <node xml:id="n67">
+        <link targets="r163"/>
+    </node>
+    <a xml:id="a-145354" label="NounChunk" ref="n67" as="anc">
+        <fs>
+            <f name="id" value="757"/>
+        </fs>
+    </a>
+    <node xml:id="n68">
+        <link targets="r165"/>
+    </node>
+    <a xml:id="a-145355" label="NounChunk" ref="n68" as="anc">
+        <fs>
+            <f name="id" value="758"/>
+        </fs>
+    </a>
+    <node xml:id="n69">
+        <link targets="r167"/>
+    </node>
+    <a xml:id="a-145356" label="NounChunk" ref="n69" as="anc">
+        <fs>
+            <f name="id" value="759"/>
+        </fs>
+    </a>
+    <a xml:id="a-145357" label="Person" ref="n69" as="anc">
+        <fs>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1815"/>
+            <f name="corefText" value="who"/>
+            <f name="id" value="894"/>
+            <f name="matches" value="[893, 894, 895]"/>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+        </fs>
+    </a>
+    <node xml:id="n7">
+        <link targets="r17"/>
+    </node>
+    <a xml:id="a-145268" label="Person" ref="n7" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="id" value="880"/>
+        </fs>
+    </a>
+    <a xml:id="a-145269" label="NounChunk" ref="n7" as="anc">
+        <fs>
+            <f name="id" value="702"/>
+        </fs>
+    </a>
+    <node xml:id="n70">
+        <link targets="r170"/>
+    </node>
+    <a xml:id="a-145358" label="NounChunk" ref="n70" as="anc">
+        <fs>
+            <f name="id" value="760"/>
+        </fs>
+    </a>
+    <node xml:id="n71">
+        <link targets="r172"/>
+    </node>
+    <a xml:id="a-145359" label="NounChunk" ref="n71" as="anc">
+        <fs>
+            <f name="id" value="761"/>
+        </fs>
+    </a>
+    <node xml:id="n72">
+        <link targets="r174"/>
+    </node>
+    <a xml:id="a-145360" label="NounChunk" ref="n72" as="anc">
+        <fs>
+            <f name="id" value="762"/>
+        </fs>
+    </a>
+    <node xml:id="n73">
+        <link targets="r176"/>
+    </node>
+    <a xml:id="a-145361" label="NounChunk" ref="n73" as="anc">
+        <fs>
+            <f name="id" value="763"/>
+        </fs>
+    </a>
+    <node xml:id="n74">
+        <link targets="r178"/>
+    </node>
+    <a xml:id="a-145362" label="PRN" ref="n74" as="anc">
+        <fs>
+            <f name="person" value="third"/>
+            <f name="case" value="nominative"/>
+            <f name="string" value="That"/>
+            <f name="id" value="1037"/>
+            <f name="matches" value="[]"/>
+            <f name="type" value="anaphoric"/>
+            <f name="number" value="singular"/>
+            <f name="cls" value="Thing"/>
+        </fs>
+    </a>
+    <a xml:id="a-145363" label="NounChunk" ref="n74" as="anc">
+        <fs>
+            <f name="id" value="764"/>
+        </fs>
+    </a>
+    <node xml:id="n75">
+        <link targets="r181"/>
+    </node>
+    <a xml:id="a-145364" label="NounChunk" ref="n75" as="anc">
+        <fs>
+            <f name="id" value="765"/>
+        </fs>
+    </a>
+    <node xml:id="n76">
+        <link targets="r183"/>
+    </node>
+    <a xml:id="a-145365" label="NounChunk" ref="n76" as="anc">
+        <fs>
+            <f name="id" value="766"/>
+        </fs>
+    </a>
+    <node xml:id="n77">
+        <link targets="r185"/>
+    </node>
+    <a xml:id="a-145366" label="Person" ref="n77" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="id" value="895"/>
+            <f name="matches" value="[893, 894, 895]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145367" label="NounChunk" ref="n77" as="anc">
+        <fs>
+            <f name="id" value="767"/>
+        </fs>
+    </a>
+    <node xml:id="n78">
+        <link targets="r188"/>
+    </node>
+    <a xml:id="a-145368" label="NounChunk" ref="n78" as="anc">
+        <fs>
+            <f name="id" value="768"/>
+        </fs>
+    </a>
+    <node xml:id="n79">
+        <link targets="r190"/>
+    </node>
+    <a xml:id="a-145369" label="Organization" ref="n79" as="anc">
+        <fs>
+            <f name="orgType" value="newspaper/media"/>
+            <f name="id" value="3356"/>
+            <f name="matches" value="[3356, 8897]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145370" label="NounChunk" ref="n79" as="anc">
+        <fs>
+            <f name="id" value="769"/>
+        </fs>
+    </a>
+    <node xml:id="n8">
+        <link targets="r20"/>
+    </node>
+    <a xml:id="a-145270" label="Person" ref="n8" as="anc">
+        <fs>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1799"/>
+            <f name="id" value="881"/>
+            <f name="gender" value="male"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145271" label="NounChunk" ref="n8" as="anc">
+        <fs>
+            <f name="id" value="703"/>
+        </fs>
+    </a>
+    <node xml:id="n80">
+        <link targets="r193"/>
+    </node>
+    <a xml:id="a-145371" label="NounChunk" ref="n80" as="anc">
+        <fs>
+            <f name="id" value="770"/>
+        </fs>
+    </a>
+    <a xml:id="a-145372" label="Person" ref="n80" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="third"/>
+            <f name="id" value="896"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <node xml:id="n81">
+        <link targets="r196"/>
+    </node>
+    <a xml:id="a-145373" label="NounChunk" ref="n81" as="anc">
+        <fs>
+            <f name="id" value="771"/>
+        </fs>
+    </a>
+    <node xml:id="n82">
+        <link targets="r198"/>
+    </node>
+    <a xml:id="a-145374" label="NounChunk" ref="n82" as="anc">
+        <fs>
+            <f name="id" value="772"/>
+        </fs>
+    </a>
+    <node xml:id="n83">
+        <link targets="r200"/>
+    </node>
+    <a xml:id="a-145375" label="NounChunk" ref="n83" as="anc">
+        <fs>
+            <f name="id" value="773"/>
+        </fs>
+    </a>
+    <node xml:id="n84">
+        <link targets="r202"/>
+    </node>
+    <a xml:id="a-145376" label="PRN" ref="n84" as="anc">
+        <fs>
+            <f name="matches" value="[880]"/>
+            <f name="string" value="I"/>
+            <f name="gender" value="either"/>
+            <f name="case" value="nominative"/>
+            <f name="person" value="first"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1038"/>
+        </fs>
+    </a>
+    <a xml:id="a-145377" label="NounChunk" ref="n84" as="anc">
+        <fs>
+            <f name="id" value="774"/>
+        </fs>
+    </a>
+    <node xml:id="n85">
+        <link targets="r205"/>
+    </node>
+    <a xml:id="a-145378" label="NounChunk" ref="n85" as="anc">
+        <fs>
+            <f name="id" value="775"/>
+        </fs>
+    </a>
+    <node xml:id="n86">
+        <link targets="r207"/>
+    </node>
+    <a xml:id="a-145379" label="NounChunk" ref="n86" as="anc">
+        <fs>
+            <f name="id" value="776"/>
+        </fs>
+    </a>
+    <a xml:id="a-145380" label="Person" ref="n86" as="anc">
+        <fs>
+            <f name="matches" value="[897, 904, 878, 899, 910]"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1816"/>
+            <f name="corefText" value="his"/>
+            <f name="id" value="897"/>
+            <f name="gender" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n87">
+        <link targets="r210"/>
+    </node>
+    <a xml:id="a-145381" label="NounChunk" ref="n87" as="anc">
+        <fs>
+            <f name="id" value="777"/>
+        </fs>
+    </a>
+    <node xml:id="n88">
+        <link targets="r212"/>
+    </node>
+    <a xml:id="a-145382" label="NounChunk" ref="n88" as="anc">
+        <fs>
+            <f name="id" value="778"/>
+        </fs>
+    </a>
+    <node xml:id="n89">
+        <link targets="r214"/>
+    </node>
+    <a xml:id="a-145383" label="NounChunk" ref="n89" as="anc">
+        <fs>
+            <f name="id" value="779"/>
+        </fs>
+    </a>
+    <node xml:id="n9">
+        <link targets="r23"/>
+    </node>
+    <a xml:id="a-145272" label="NounChunk" ref="n9" as="anc">
+        <fs>
+            <f name="id" value="704"/>
+        </fs>
+    </a>
+    <node xml:id="n90">
+        <link targets="r216"/>
+    </node>
+    <a xml:id="a-145384" label="NounChunk" ref="n90" as="anc">
+        <fs>
+            <f name="id" value="780"/>
+        </fs>
+    </a>
+    <node xml:id="n91">
+        <link targets="r218"/>
+    </node>
+    <a xml:id="a-145385" label="NounChunk" ref="n91" as="anc">
+        <fs>
+            <f name="id" value="781"/>
+        </fs>
+    </a>
+    <node xml:id="n92">
+        <link targets="r220"/>
+    </node>
+    <a xml:id="a-145386" label="NounChunk" ref="n92" as="anc">
+        <fs>
+            <f name="id" value="782"/>
+        </fs>
+    </a>
+    <node xml:id="n93">
+        <link targets="r222"/>
+    </node>
+    <a xml:id="a-145387" label="NounChunk" ref="n93" as="anc">
+        <fs>
+            <f name="id" value="783"/>
+        </fs>
+    </a>
+    <node xml:id="n94">
+        <link targets="r224"/>
+    </node>
+    <a xml:id="a-145388" label="PRN" ref="n94" as="anc">
+        <fs>
+            <f name="matches" value="[898]"/>
+            <f name="string" value="his"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="possessive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1040"/>
+        </fs>
+    </a>
+    <node xml:id="n95">
+        <link targets="r226"/>
+    </node>
+    <a xml:id="a-145389" label="NounChunk" ref="n95" as="anc">
+        <fs>
+            <f name="id" value="784"/>
+        </fs>
+    </a>
+    <node xml:id="n96">
+        <link targets="r228"/>
+    </node>
+    <a xml:id="a-145390" label="Person" ref="n96" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="person" value="third"/>
+            <f name="corefId" value="1817"/>
+            <f name="corefText" value="himself"/>
+            <f name="id" value="898"/>
+            <f name="matchedWithLonger" value="true"/>
+            <f name="matches" value="[877, 881, 882, 888, 891, 892, 896, 898, 900, 905, 906, 907, 908]"/>
+        </fs>
+    </a>
+    <a xml:id="a-145391" label="NounChunk" ref="n96" as="anc">
+        <fs>
+            <f name="id" value="785"/>
+        </fs>
+    </a>
+    <node xml:id="n97">
+        <link targets="r231"/>
+    </node>
+    <a xml:id="a-145392" label="NounChunk" ref="n97" as="anc">
+        <fs>
+            <f name="id" value="786"/>
+        </fs>
+    </a>
+    <node xml:id="n98">
+        <link targets="r233"/>
+    </node>
+    <a xml:id="a-145393" label="PRN" ref="n98" as="anc">
+        <fs>
+            <f name="matches" value="[892]"/>
+            <f name="string" value="himself"/>
+            <f name="gender" value="male"/>
+            <f name="case" value="reflexive"/>
+            <f name="person" value="third"/>
+            <f name="cls" value="Person"/>
+            <f name="number" value="singular"/>
+            <f name="type" value="anaphoric"/>
+            <f name="id" value="1041"/>
+        </fs>
+    </a>
+    <a xml:id="a-145394" label="NounChunk" ref="n98" as="anc">
+        <fs>
+            <f name="id" value="787"/>
+        </fs>
+    </a>
+    <node xml:id="n99">
+        <link targets="r236"/>
+    </node>
+    <a xml:id="a-145395" label="NounChunk" ref="n99" as="anc">
+        <fs>
+            <f name="id" value="788"/>
+        </fs>
+    </a>
+    <a xml:id="a-145396" label="Person" ref="n99" as="anc">
+        <fs>
+            <f name="gender" value="male"/>
+            <f name="person" value="third"/>
+            <f name="number" value="singular"/>
+            <f name="case" value="objective"/>
+            <f name="id" value="899"/>
+            <f name="matches" value="[897, 904, 878, 899, 910]"/>
+        </fs>
+    </a>
+</graph>
